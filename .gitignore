@@ -1,0 +1,11 @@
+# Python virtual environment
+tflite_env/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/

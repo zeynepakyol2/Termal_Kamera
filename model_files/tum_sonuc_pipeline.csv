@@ -1,0 +1,1451 @@
+dosya,yara_var,tahmin_turu,tahmin_sinif
+02.05.2025.SAKRUM.DDH.-1.2.jpg,1,Evre,evre
+"04.06.2025.GLUTEAL.DDH.-1,6.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.DDH.-2,3.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.DDH.-3,4.jpg",0,Risk,2
+"13.03.2025.GLUTEAL.DDH.-1,8.jpg",0,Risk,2
+"13.03.2025.SAKRUM.DDH.-0,1.jpg",1,Evre,evre
+22.04.2025.GLUTEAL.DDH.-0.9.jpg,0,Risk,2
+22.04.2025.SAKRUM.DDH.-0.5.jpg,1,Evre,evre
+22.04.2025.SAKRUM.DDH.-1.jpg,1,Evre,evre
+"28.03.2025.GLUTEAL.DDH.-0,1.jpg",0,Risk,2
+DİRSEK.DDH-3.2.jpg,1,Evre,evre
+DİRSEK.DDH.-1.8.jpg,1,Evre,evre
+DİRSEK.DDH.-2.4.jpg,1,Evre,evre
+DİRSEK.DDH.-2.5.jpg,1,Evre,evre
+DİRSEK.DDH.-4.0.jpg,0,Risk,2
+GLUTEAL. DDH. 1.6.jpg,0,Risk,2
+GLUTEAL.DDH.-0.2.jpg,1,Evre,evre
+GLUTEAL.DDH.-0.4 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-0.4.jpg,1,Evre,evre
+GLUTEAL.DDH.-0.5.jpg,1,Evre,evre
+GLUTEAL.DDH.-0.6.jpg,1,Evre,evre
+GLUTEAL.DDH.-0.7.jpg,1,Evre,evre
+GLUTEAL.DDH.-1.1 (1).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.1 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.1 (3).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.1.jpg,0,Risk,2
+GLUTEAL.DDH.-1.2 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.2.jpg,1,Evre,evre
+GLUTEAL.DDH.-1.3 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.3 (3).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.3 (4).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.3.jpg,1,Evre,evre
+GLUTEAL.DDH.-1.4 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.4 (3).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.4 (4).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.4.jpg,1,Evre,evre
+GLUTEAL.DDH.-1.5.jpg,1,Evre,evre
+GLUTEAL.DDH.-1.7 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.7 (3).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.7 (4).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.7 (5).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.7.jpg,1,Evre,evre
+GLUTEAL.DDH.-1.8 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-1.8.jpg,1,Evre,evre
+GLUTEAL.DDH.-1.9.jpg,1,Evre,evre
+GLUTEAL.DDH.-2.4.jpg,1,Evre,evre
+GLUTEAL.DDH.-2.5.jpg,1,Evre,evre
+GLUTEAL.DDH.-2.6 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-2.6.jpg,1,Evre,evre
+GLUTEAL.DDH.-2.7.jpg,0,Risk,2
+GLUTEAL.DDH.-3.2 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-3.2 (3).jpg,1,Evre,evre
+GLUTEAL.DDH.-3.2.jpg,1,Evre,evre
+GLUTEAL.DDH.-3.3.jpg,1,Evre,evre
+GLUTEAL.DDH.-3.4 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-3.4.jpg,1,Evre,evre
+GLUTEAL.DDH.-3.6.jpg,1,Evre,evre
+GLUTEAL.DDH.-3.7 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-3.7.jpg,1,Evre,evre
+GLUTEAL.DDH.-3.8 (2).jpg,1,Evre,evre
+GLUTEAL.DDH.-3.8.jpg,1,Evre,evre
+GLUTEAL.DDH.-4.8.jpg,1,Evre,evre
+OMUZ.DDH.-1.2.jpg,1,Evre,evre
+SAKRUM.DDH-3.1.jpg,1,Evre,evre
+SAKRUM.DDH.-0.1.jpg,1,Evre,evre
+SAKRUM.DDH.-0.2.jpg,1,Evre,evre
+SAKRUM.DDH.-0.3 (2).jpg,1,Evre,evre
+SAKRUM.DDH.-0.3.jpg,1,Evre,evre
+SAKRUM.DDH.-0.5.jpg,1,Evre,evre
+SAKRUM.DDH.-0.6 (2).jpg,1,Evre,evre
+SAKRUM.DDH.-0.6.jpg,1,Evre,evre
+SAKRUM.DDH.-1.0.jpg,1,Evre,evre
+SAKRUM.DDH.-1.2.jpg,1,Evre,evre
+SAKRUM.DDH.-1.5.jpg,1,Evre,evre
+SAKRUM.DDH.-1.jpg,1,Evre,evre
+TOPUK.DDH-3.1.jpg,0,Risk,2
+TOPUK.DDH.-1.1.jpg,0,Risk,2
+TOPUK.DDH.-1.5.jpg,1,Evre,evre
+TOPUK.DDH.-1.jpg,1,Evre,evre
+02.05.2025.SAKRUM.EVRE1.-0.8.jpg,0,Risk,2
+02.05.2025.SAKRUM.EVRE1.-1.3.jpg,1,Evre,evre
+"04.06.2025.1SAKRUM.EVRE1.-0,9.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.EVRE1,-0,4.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.EVRE1.-0,9.jpg",0,Risk,2
+"04.06.2025.SAKRUM.EVRE1.-0,7.jpg",0,Risk,2
+"04.06.2025.SAKRUM.EVRE1.-0,9.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EVRE1.-1,4.jpg",1,Evre,evre
+"04.06.2025.SKRUM.EVRE1.-1,1.jpg",1,Evre,evre
+"12.04.2025. TOPUK. EVRE 1. -0,8.jpg",0,Risk,2
+"13.03.2025.GLUTEAL.EVRE1.-0,9.jpg",0,Risk,2
+"13.03.2025.TOPUK.EVRE 1-0,4.jpg",0,Risk,2
+"13.03.2025.TOPUK.EVRE1.-0,7.jpg",0,Risk,2
+1GLUTEAL.EVRE1.-1.1.jpg,0,Risk,2
+22.04.2025.GLUTEAL.EVRE1.-2.5.jpg,0,Risk,2
+22.04.2025.SAKRUM.EVRE1.-0.7.jpg,1,Evre,evre
+22.04.2025.SAKRUM.EVRE1.-0.9.jpg,1,Evre,evre
+22.04.2025.SAKRUM.EVRE1.-1.8.jpg,0,Risk,2
+22.04.2025.TOPUK.EVRE1.-0.9.jpg,1,Evre,evre
+22.04.2025.TOPUK.EVRE1.-1.jpg,0,Risk,2
+22.04.2025.TOPUK.EVRE1.-2.2.jpg,0,Risk,2
+3.22.04.2025.GLUTEAL.EVRE1.-0.8.jpg,1,Evre,evre
+AYAK.EVRE1.3.1.jpg,1,Evre,evre
+GLUEAL.EVRE1.-0.6.jpg,1,Evre,evre
+GLUEAL.EVRE1.-1.1.jpg,1,Evre,evre
+GLUTEAL.EVRE1-3.1.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-0.1 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.1 (3).jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.1.jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.2 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.2 (3).jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.2.jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.3 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.3.jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.4 (1).jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.4 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.4.jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.5 (1).jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.5.jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.6.jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.6.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-0.7 (1).jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.7.jpeg,1,Evre,evre
+GLUTEAL.EVRE1.-0.8 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-0.8 (3).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-0.8.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-0.9 (1).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-0.9 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-0.9.jpg,0,Risk,2
+GLUTEAL.EVRE1.-1.1.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.2 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.2.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.3 (1).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.3 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.3.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.4.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.5.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.6.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.7 (1).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.7.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-1.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-2.0 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-2.0.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-2.1.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-2.7.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-2.9.jpg,0,Risk,2
+GLUTEAL.EVRE1.-3.3.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-3.4 (1).jpg,1,Evre,evre
+GLUTEAL.EVRE1.-3.4.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-4.8.jpg,1,Evre,evre
+GLUTEAL.EVRE1.-5.1.jpg,0,Risk,2
+Malleus  evre 1 2025-07-31 saat 15.01.28_7c0401aa.jpg,1,Evre,evre
+Malleus evre 1 2025-07-31 saat 15.01.27_55e114c2.jpg,1,Evre,evre
+Malleus evre 1 2025-07-31 saat 15.01.27_860c9193.jpg,1,Evre,evre
+malleus evre 1 2025-07-31 saat 15.01.28_830c4709.jpg,1,Evre,evre
+Sakrum evre 1 2025-07-31 saat 15.01.25_d230fe18.jpg,1,Evre,evre
+SAKRUM.EVRE1-0.8.jpg,1,Evre,evre
+SAKRUM.EVRE1.+0.5.jpeg,1,Evre,evre
+SAKRUM.EVRE1.+0.7.jpeg,1,Evre,evre
+SAKRUM.EVRE1.+0.9.jpeg,1,Evre,evre
+SAKRUM.EVRE1.-0.1.jpeg,1,Evre,evre
+SAKRUM.EVRE1.-0.2 (1).jpg,0,Risk,2
+SAKRUM.EVRE1.-0.2 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE1.-0.2.jpeg,1,Evre,evre
+SAKRUM.EVRE1.-0.2.jpg,0,Risk,2
+SAKRUM.EVRE1.-0.3 (1).jpg,1,Evre,evre
+SAKRUM.EVRE1.-0.3.jpeg,1,Evre,evre
+SAKRUM.EVRE1.-0.3.jpg,0,Risk,2
+SAKRUM.EVRE1.-0.4.jpg,1,Evre,evre
+SAKRUM.EVRE1.-0.5.jpg,1,Evre,evre
+SAKRUM.EVRE1.-0.6.jpeg,1,Evre,evre
+SAKRUM.EVRE1.-0.6.jpg,1,Evre,evre
+SAKRUM.EVRE1.-0.7 (2).jpg,1,Evre,evre
+SAKRUM.EVRE1.-0.7.jpg,1,Evre,evre
+SAKRUM.EVRE1.-1.6.jpeg,1,Evre,evre
+SAKRUM.EVRE1.-1.9.jpg,0,Risk,2
+SAKRUM.EVRE1.-1.jpg,0,Risk,2
+SAKRUM.EVRE1.-2.9.jpeg,1,Evre,evre
+SIRT.EVRE1-3.1.jpg,1,Evre,evre
+SIRT.EVRE1-3.2.jpg,1,Evre,evre
+SKAPULA.EVRE1.-1.6 (2).jpeg,1,Evre,evre
+SKAPULA.EVRE1.-1.6 (3).jpeg,1,Evre,evre
+SKAPULA.EVRE1.-1.6.jpeg,1,Evre,evre
+TOPUK.EVRE1-3.1.jpg,1,Evre,evre
+TOPUK.EVRE1.-0.5.jpeg,1,Evre,evre
+TOPUK.EVRE1.-0.5.jpg,1,Evre,evre
+TOPUK.EVRE1.-0.6.jpeg,1,Evre,evre
+TOPUK.EVRE1.-0.7.jpeg,1,Evre,evre
+TOPUK.EVRE1.-0.9 (1).jpg,0,Risk,2
+TOPUK.EVRE1.-0.9.jpg,0,Risk,2
+TOPUK.EVRE1.-1.2.jpg,0,Risk,2
+TOPUK.EVRE1.-1.6.jpg,0,Risk,2
+TOPUK.EVRE1.-1.7.jpg,0,Risk,2
+TOPUK.EVRE1.-2.2.jpg,0,Risk,2
+TOPUK.EVRE1.-2.3.jpg,1,Evre,evre
+TİBİA.EVRE1.-0.6.jpeg,0,Risk,2
+TİBİA.EVRE1.-0.7 (2).jpeg,1,Evre,evre
+TİBİA.EVRE1.-0.7.jpeg,1,Evre,evre
+YÜZ.EVRE1-3.1.jpg,1,Evre,evre
+02.05.2025.GLUTEAL.EVRE2.-1.5.jpg,1,Evre,evre
+02.05.2025.SAKRUM.EVRE2.-1.5.jpg,0,Risk,2
+02.05.2025.SAKRUM.EVRE2.-1.8.jpg,1,Evre,evre
+"04.06.2025.2.GLUTEAL.EVRE2.-1,5.jpg",1,Evre,evre
+"04.06.2025.2.SAKRUM.EVRE2.-1,9.jpg",1,Evre,evre
+04.06.2025.2.SAKRUM.EVRE2.-1.jpg,1,Evre,evre
+"04.06.2025.3.SAKRUM.EVRE2.-1,3.jpg",1,Evre,evre
+"04.06.2025.3.SAKRUM.EVRE2.-1,7.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.EVRE2.-1,5.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.EVRE2.-1,7.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.EVRE2.-1,9.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.1.EVRE2.-1,6.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EVRE2.-1,2.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EVRE2.-1,3.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EVRE2.-1,4.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EVRE2.-1,5.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EVRE2.-1,6.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EVRE2.-1,7.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EVRE2.-1,8.jpg",0,Risk,0
+04.06.2025.SAKRUM.EVRE2.-1.jpg,0,Risk,2
+"04.06.2025.SAKRUM1.EVRE2.-1,7.jpg",1,Evre,evre
+"04.06.2025.SAKRUM2.EVRE2.-1,2.jpg",1,Evre,evre
+"04.06.2025.SAKRUM2.EVRE2.-1,5.jpg",0,Risk,2
+"04.06.2025.SAKRUM2.EVRE2.-1,7.jpg",1,Evre,evre
+"12.04.2025. SAKRUM. EVRE 2. -0,4.jpg",0,Risk,2
+"12.04.2025. TOUK. EVRE 2. -0,6.jpg",0,Risk,2
+"13.03.2025.GLUTEAL.EVRE 2.-1,5.jpg",1,Evre,evre
+"13.03.2025.GLUTEAL.EVRE2.-1,7.jpg",1,Evre,evre
+"13.03.2025.SAKRUM.EVRE 2.-1,2.jpg",1,Evre,evre
+"13.03.2025.SAKRUM.EVRE2.-0,2.jpg",1,Evre,evre
+13.03.2025.SAKRUM.EVRE2.-1.1.jpg,1,Evre,evre
+1SAKRUM.EVRE2.-0.4.jpg,0,Risk,2
+22.04.2025.SAKRUM.EVRE2.-1.4.jpg,1,Evre,evre
+22.04.2025.SAKRUM.EVRE2.-1.7.jpg,1,Evre,evre
+22.04.2025.SAKRUM.EVRE2.-1.9.jpg,0,Risk,2
+"28.03.2025.GLUTEAL.EVRE 2.-0,5.jpg",1,Evre,evre
+"28.03.2025.SAKRUM.EVRE 2.-0,5.jpg",1,Evre,evre
+28.03.2025.SAKRUM.EVRE 2.-0.5.jpg,1,Evre,evre
+AYAK.EVRE2-3.1.jpg,1,Evre,evre
+GLUTEAL. EVRE2. -1.1.jpg,0,Risk,2
+GLUTEAL. EVRE2.-0.1.jpg,0,Risk,2
+GLUTEAL.EVRE2-3.1.jpg,1,Evre,evre
+GLUTEAL.EVRE2-3.2.jpg,1,Evre,evre
+GLUTEAL.EVRE2-3.3.jpg,1,Evre,evre
+GLUTEAL.EVRE2. -0.5.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.3.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.3.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.4 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.4.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.4.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.5 (1).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.5 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.5 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.5 (3).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.5.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.5.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.6 (1).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.6 (1).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.6 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.6.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.6.jpg,0,Risk,2
+GLUTEAL.EVRE2.-0.8 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.8 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.8.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-0.8.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-0.9.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1 (1).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.0 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.0 (3).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.0.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.0.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.1.jpg,0,Risk,2
+GLUTEAL.EVRE2.-1.2 (1).jpg,0,Risk,2
+GLUTEAL.EVRE2.-1.2.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.3.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.4 (1).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.4 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.4.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.4.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.5 (1).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.5 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.5 (3).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.5.jpg,0,Risk,2
+GLUTEAL.EVRE2.-1.6.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.6.jpg,0,Risk,2
+GLUTEAL.EVRE2.-1.7 (1).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.7 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.7.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.7.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-1.9 (1).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.9 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.9 (3).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.9 (4).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.9.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-1.jpg,0,Risk,2
+GLUTEAL.EVRE2.-2.0.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-2.1 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-2.1.jpeg,1,Evre,evre
+GLUTEAL.EVRE2.-2.3.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-2.5 (2).jpg,1,Evre,evre
+GLUTEAL.EVRE2.-2.5.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-2.6.jpg,1,Evre,evre
+GLUTEAL.EVRE2.-4.0.jpg,1,Evre,evre
+LATERAL.LUMBAL.EVRE2.-0.7 (2).jpeg,1,Evre,evre
+LATERAL.LUMBAL.EVRE2.-0.7.jpeg,1,Evre,evre
+LATERAL.LUMBAL.EVRE2.-0.8 (2).jpeg,1,Evre,evre
+LATERAL.LUMBAL.EVRE2.-0.8.jpeg,1,Evre,evre
+LATERAL.LUMBAL.EVRE2.-0.9 (2).jpeg,1,Evre,evre
+LATERAL.LUMBAL.EVRE2.-0.9.jpeg,1,Evre,evre
+LATERAL.LUMBAL.EVRE2.-1.0 (2).jpeg,1,Evre,evre
+LATERAL.LUMBAL.EVRE2.-1.0.jpeg,1,Evre,evre
+LATERAL.LUMBAL.EVRE2.-2.0.jpeg,1,Evre,evre
+MALLEOL.EVRE2-3.1.jpg,1,Evre,evre
+Sakrum evre 2 2025-07-31 saat 15.01.27_222ac427.jpg,1,Evre,evre
+Sakrum evre 2 2025-07-31 saat 15.01.29_16d42150.jpg,1,Evre,evre
+sakrum evre 2.jpg,1,Evre,evre
+SAKRUM. EVRE2.-1.jpg,1,Evre,evre
+SAKRUM.EVRE2-3.1.jpg,1,Evre,evre
+SAKRUM.EVRE2.+0.1.jpeg,1,Evre,evre
+SAKRUM.EVRE2.+0.2.jpeg,1,Evre,evre
+SAKRUM.EVRE2.+0.3.jpeg,1,Evre,evre
+SAKRUM.EVRE2.+0.4 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE2.+0.4 (3).jpeg,1,Evre,evre
+SAKRUM.EVRE2.+0.4 (4).jpeg,1,Evre,evre
+SAKRUM.EVRE2.+0.4.jpeg,0,Risk,2
+SAKRUM.EVRE2.+0.5.jpeg,1,Evre,evre
+SAKRUM.EVRE2.+0.6.jpeg,1,Evre,evre
+SAKRUM.EVRE2.-0.6.jpg,0,Risk,2
+SAKRUM.EVRE2.-0.7.jpg,0,Risk,2
+SAKRUM.EVRE2.-0.8 (1).jpg,0,Risk,2
+SAKRUM.EVRE2.-0.8.jpg,1,Evre,evre
+SAKRUM.EVRE2.-1.2.jpeg,1,Evre,evre
+SAKRUM.EVRE2.-1.3.jpeg,1,Evre,evre
+SAKRUM.EVRE2.-1.4 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE2.-1.4.jpg,1,Evre,evre
+SAKRUM.EVRE2.-1.7.jpg,1,Evre,evre
+SAKRUM.EVRE2.-1.8.jpg,1,Evre,evre
+SAKRUM.EVRE2.-1.jpg,1,Evre,evre
+SAKRUM.EVRE2.-2.2 (1).jpg,1,Evre,evre
+SAKRUM.EVRE2.-2.2.jpg,1,Evre,evre
+TOPUK.EVRE2.-1.6.jpeg,1,Evre,evre
+TOPUK.EVRE2.-2.0.jpeg,1,Evre,evre
+TOPUK.EVRE2.-2.5.jpeg,1,Evre,evre
+TOPUK.EVRE2.-2.6.jpeg,1,Evre,evre
+TOPUK.EVRE2.-2.8.jpeg,1,Evre,evre
+TİBİA.EVRE2.-0.4.jpeg,1,Evre,evre
+TİBİA.EVRE2.-0.5.jpeg,1,Evre,evre
+TİBİA.EVRE2.-0.6 (1).jpeg,1,Evre,evre
+TİBİA.EVRE2.-0.6.jpeg,1,Evre,evre
+TİBİA.EVRE2.-0.7.jpeg,1,Evre,evre
+TİBİA.EVRE2.-0.8.jpeg,1,Evre,evre
+TİBİA.EVRE2.-1.0 (2).jpeg,1,Evre,evre
+TİBİA.EVRE2.-1.0.jpeg,1,Evre,evre
+TİBİA.EVRE2.-1.4.jpeg,1,Evre,evre
+TİBİA.EVRE2.-2.7.jpeg,1,Evre,evre
+TİBİA.EVRE2.-3.0 (1).jpeg,1,Evre,evre
+TİBİA.EVRE2.-3.0.jpeg,1,Evre,evre
+"04.06.2025.SAKRUM.EVRE3.-1,6.jpg",1,Evre,evre
+"1.13.03.2025.SAKRUM.EVRE3.-0,4.jpg",1,Evre,evre
+"13.03.2025.SAKRUM.EVRE3.-0,2.jpg",1,Evre,evre
+"13.03.2025.SAKRUM.EVRE3.-0,4.jpg",1,Evre,evre
+"13.03.2025.SAKRUM.EVRE3.-0,6.jpg",1,Evre,evre
+13.03.2025.SAKRUM.EVRE3.-1.jpg,1,Evre,evre
+"13.03.2025.SAKRUM.EVRE3.-2,7.jpg",1,Evre,evre
+evre 3 koksiks.jpg,1,Evre,evre
+GLUTEAL.EVRE3.+0.3.jpeg,1,Evre,evre
+GLUTEAL.EVRE3.+0.5 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE3.+0.5 (3).jpeg,1,Evre,evre
+GLUTEAL.EVRE3.+0.5.jpeg,1,Evre,evre
+GLUTEAL.EVRE3.+0.6 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE3.+0.6.jpeg,1,Evre,evre
+GLUTEAL.EVRE3.-0.1 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE3.-0.1.jpeg,1,Evre,evre
+GLUTEAL.EVRE3.-0.2 (2).jpeg,1,Evre,evre
+GLUTEAL.EVRE3.-0.2.jpeg,1,Evre,evre
+GLUTEAL.EVRE3.-0.3 (1).jpeg,1,Evre,evre
+GLUTEAL.EVRE3.-0.7.jpg,1,Evre,evre
+GLUTEAL.EVRE3.-0.9.jpg,1,Evre,evre
+GLUTEAL.EVRE3.-1.2.jpg,1,Evre,evre
+GLUTEAL.EVRE3.-2.5.jpg,1,Evre,evre
+sakrum evre 3 2025-07-31 saat 15.01.26_5450054d.jpg,1,Evre,evre
+Sakrum evre 3 2025-07-31 saat 15.01.30_40e14008.jpg,1,Evre,evre
+Sakrum evre 3 2025-07-31 saat 15.01.30_e05e1b7a.jpg,1,Evre,evre
+Sakrum evre 3 2025-07-31 saat 15.01.30_fe6839e5.jpg,1,Evre,evre
+sakrum evre 3 2025-07-31 saat 15.01.jpg,1,Evre,evre
+sakrum evre 3 2025-07-31 saat 15.02.jpg,1,Evre,evre
+Sakrum evre 3.jpg,1,Evre,evre
+SAKRUM. EVRE3.-1.jpg,1,Evre,evre
+SAKRUM.EVRE3-3.1.jpg,1,Evre,evre
+SAKRUM.EVRE3-3.2.jpg,1,Evre,evre
+SAKRUM.EVRE3.-2.3.jpeg,1,Evre,evre
+SAKRUM.EVRE3.-3.5 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE3.-3.5.jpeg,1,Evre,evre
+SAKRUM.EVRE3.-3.6 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE3.-3.6.jpeg,1,Evre,evre
+Gluteal evre 4 2025-07-31 saat 15.01.28_7fba8806.jpg,1,Evre,evre
+Sakrum evre 4  2025-07-31 saat 15.01.29_d36d65ba.jpg,1,Evre,evre
+sakrum evre 4  2025-07-31 saat 15.01.31_f55b863a.jpg,1,Evre,evre
+sakrum evre 4 2025-07-31 saat 15.01.26.jpg,1,Evre,evre
+Sakrum evre 4 2025-07-31 saat 15.01.29_c1d82675.jpg,1,Evre,evre
+Sakrum evre 4 2025-07-31 saat 15.01.31_aa3d4fd6.jpg,1,Evre,evre
+sakrum evre 4 2025-07-31 saat 15.01.32_0dbe87ed.jpg,1,Evre,evre
+sakrum evre 4 2025-07-31 saat 15.01.32_84749798.jpg,1,Evre,evre
+SAKRUM.EVRE4-3.1.jpg,1,Evre,evre
+SAKRUM.EVRE4-3.2.jpg,1,Evre,evre
+SAKRUM.EVRE4.+0.4 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE4.+0.4 (3).jpeg,1,Evre,evre
+SAKRUM.EVRE4.+0.4.jpeg,1,Evre,evre
+SAKRUM.EVRE4.+0.6 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE4.+0.6.jpeg,1,Evre,evre
+SAKRUM.EVRE4.+0.7 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE4.+0.7 (3).jpeg,1,Evre,evre
+SAKRUM.EVRE4.+0.7.jpeg,1,Evre,evre
+SAKRUM.EVRE4.-0.3.jpeg,1,Evre,evre
+SAKRUM.EVRE4.-1.2 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE4.-1.2.jpeg,1,Evre,evre
+SAKRUM.EVRE4.-1.7 (2).jpeg,1,Evre,evre
+SAKRUM.EVRE4.-1.7.jpeg,1,Evre,evre
+02.05.2025.SAKRUM.EBY.-2.9.jpg,1,Evre,evre
+02.05.2025.SAKRUM.EBY.-3.2.jpg,1,Evre,evre
+02.05.2025.SAKRUM.EBY.-4.9.jpg,1,Evre,evre
+"04.06.2025.2.GLUTEAL.EBY.-2,7.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.EBY.-1,7.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.EBY.-2,1.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.EBY.-2,4.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.EBY.-2,7.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EBY.-2,6.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EBY.-2,8.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.EBY.-3,5.jpg",0,Risk,2
+"113.03.2025.GLUTEAL.EBY.-2,5.jpg",1,Evre,evre
+"13.03.2025.GLUTEAL.EBY.-0,3.jpg",1,Evre,evre
+"13.03.2025.GLUTEAL.EBY.-1,8.jpg",1,Evre,evre
+"13.03.2025.GLUTEAL.EBY.-2,3.jpg",1,Evre,evre
+"13.03.2025.GLUTEAL.EBY.-2,5.jpg",1,Evre,evre
+"13.03.2025.GLUTEAL.EBY.-2,6.jpg",1,Evre,evre
+"13.03.2025.GLUTEAL.EBY.-2,7.jpg",0,Risk,2
+13.03.2025.SAKRUM.EBY.-0.5.jpg,0,Risk,0
+"13.03.2025.TOPUK.EBY.-0,8.jpg",0,Risk,2
+"13.03.2025.TOPUK.EBY.-1,8.jpg",0,Risk,2
+1SAKRUM.EBY.-0.8.jpg,1,Evre,evre
+22.04.2025.GLUTEAL.EBY.-1.7.jpg,1,Evre,evre
+22.04.2025.GLUTEAL.EBY.-2.5.jpg,1,Evre,evre
+22.04.2025.SAKRUM.EBY.-4.1.jpg,1,Evre,evre
+MAlleus evrelendirilemeyen 2025-07-31 saat 15.01.28_2ec2c6ab.jpg,1,Evre,evre
+SAKRUM. EBY. -0.7.jpg,1,Evre,evre
+SAKRUM. EBY. -0.8.jpg,1,Evre,evre
+SAKRUM. EBY. -0.9.jpg,1,Evre,evre
+SAKRUM. EBY. -1.2.jpg,1,Evre,evre
+SAKRUM. EBY. -3.6.jpg,1,Evre,evre
+SAKRUM. EBY.-1.0.jpg,1,Evre,evre
+SAKRUM.EBY.-0.3.jpg,1,Evre,evre
+SAKRUM.EBY.-0.4.jpg,1,Evre,evre
+SAKRUM.EBY.-0.6.jpg,1,Evre,evre
+SAKRUM.EBY.-0.7.jpg,1,Evre,evre
+SAKRUM.EBY.-0.8.jpg,0,Risk,2
+SAKRUM.EBY.-1.1.jpg,1,Evre,evre
+SAKRUM.EBY.-1.2.jpg,1,Evre,evre
+SAKRUM.EBY.-1.6.jpg,1,Evre,evre
+SAKRUM.EBY.-2.2.jpg,1,Evre,evre
+SAKRUM.EBY.-3.4.jpg,0,Risk,2
+TIBIA.EBY-3.1.jpg,1,Evre,evre
+TOPUK.EBY. -0.8.jpg,1,Evre,evre
+TOPUK.EBY.-1 (1).jpg,0,Risk,2
+TOPUK.EBY.-1.5.jpg,0,Risk,2
+TOPUK.EBY.-1.8.jpg,1,Evre,evre
+TOPUK.EBY.-1.jpg,0,Risk,2
+TOPUK.EBY.-2.2.jpg,0,Risk,2
+TOPUK.EBY.-3.1.jpg,1,Evre,evre
+TOPUK.EBY.-3.4.jpg,0,Risk,2
+TOPUK.EBY.-4.5.jpg,0,Risk,2
+KULAK.TCİBY-3.1.jpg,1,Evre,evre
+KULAK.TCİBY-3.2.jpg,1,Evre,evre
+YÜZ_TCİBY_3.1.jpg,1,Evre,evre
+02.05.2025.GLUTEAL.1GR.-0.1.jpg,0,Risk,2
+02.05.2025.GLUTEAL.1GR.-0.3.jpg,0,Risk,2
+02.05.2025.GLUTEAL.1GR.-0.4.jpg,1,Evre,evre
+02.05.2025.GLUTEAL.1GR.-0.7.jpg,0,Risk,2
+02.05.2025.GLUTEAL.1GR.-0.8.jpg,0,Risk,2
+02.05.2025.GLUTEAL.2GR.-0.8.jpg,0,Risk,2
+"02.05.2025.GLUTEAL.GR.-0,4.jpg",0,Risk,2
+"02.05.2025.GLUTEAL.GR.-0,7.jpg",1,Evre,evre
+02.05.2025.GLUTEAL.GR.-0.1.jpg,0,Risk,2
+02.05.2025.GLUTEAL.GR.-0.3.jpg,0,Risk,2
+02.05.2025.GLUTEAL.GR.-0.5.jpg,0,Risk,2
+02.05.2025.GLUTEAL.GR.-0.6.jpg,0,Risk,2
+02.05.2025.GLUTEAL.GR.-0.7.jpg,0,Risk,2
+02.05.2025.GLUTEAL.GR.-0.8.jpg,0,Risk,2
+02.05.2025.SAKRUM.GR.-0.6.jpg,0,Risk,2
+02.05.2025.TOPUK.GR.-0.4.jpg,0,Risk,2
+02.05.2025.TOPUK.GR.-0.5.jpg,0,Risk,2
+02.05.2025.TOPUK.GR.-0.7.jpg,0,Risk,2
+"04.06.2025.1GLUTEAL.GR.-0,2.jpg",0,Risk,2
+"04.06.2025.1GLUTEAL.GR.-0,3.jpg",0,Risk,2
+"04.06.2025.GLUTEAL.2.GR.-0,3.jpg",0,Risk,2
+"04.06.2025.GLUTEAL.GR.-0,1.jpg",0,Risk,2
+"04.06.2025.GLUTEAL.GR.-0,2.jpg",0,Risk,2
+"04.06.2025.GLUTEAL.GR.-0,3.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL.GR.-0,4.jpg",0,Risk,2
+"04.06.2025.GLUTEAL.GR.-0,5.jpg",1,Evre,evre
+"04.06.2025.GLUTEAL2.GR.-0,4.jpg",0,Risk,2
+"04.06.2025.GLUTEAL2.GR.-0,5.jpg",1,Evre,evre
+"04.06.2025.SAKRUM.GR.-0,7.jpg",0,Risk,2
+"04.06.2025.SAKRUM1.GR.-0,3.jpg",0,Risk,2
+"04.06.2025.SAKRUM1.GR.-0,6.jpg",0,Risk,2
+"1.13.03.2025.TOPUK.GR.-0,5.jpg",0,Risk,2
+1.22.04.2025.GLUTEAL.GR.-0.2.jpg,0,Risk,2
+1.22.04.2025.GLUTEAL.GR.-0.8.jpg,0,Risk,2
+1.22.04.2025.TOPUK.GR.-0.1.jpg,0,Risk,2
+1.22.04.2025.TOPUK.GR.-0.6.jpg,0,Risk,2
+1.GLUTEAL.GR.-0.2.jpg,0,Risk,2
+1.GLUTEAL.GR.-0.5.jpg,0,Risk,2
+1.GLUTEAL.GR.-0.9.jpg,1,Evre,evre
+"113.03.2025.GLUTEAL.GR.-0,2.jpg",0,Risk,2
+"12.04.2025. GLUTEAL. GR. -0,2.jpg",0,Risk,2
+"12.04.2025. GLUTEAL. GR. -0,7.jpg",1,Evre,evre
+"12.04.2025. GLUTEAL.GR.-0,2.jpg",0,Risk,2
+"12.04.2025. SAKRUM. GR. -0,3.jpg",0,Risk,2
+"12.04.2025. SAKRUM. GR. -0,4.jpg",0,Risk,2
+"128.03.2025.GLUTEAL.GR.-0,4.jpg",0,Risk,2
+"13.03.2025.GLUTEAL.GR.-0,1.jpg",0,Risk,2
+"13.03.2025.GLUTEAL.GR.-0,2.jpg",0,Risk,0
+"13.03.2025.GLUTEAL.GR.-0,3.jpg",0,Risk,2
+"13.03.2025.GLUTEAL.GR.-0,7.jpg",0,Risk,2
+13.03.2025.GLUTEAL.GR.-0.8.jpg,0,Risk,2
+"13.03.2025.SAKRUM.GR.-0,1.jpg",0,Risk,2
+"13.03.2025.SAKRUM.GR.-0,9.jpg",0,Risk,2
+"13.03.2025.TOPUK.GR.-0,3.jpg",0,Risk,2
+"13.03.2025.TOPUK.GR.-0,5.jpg",0,Risk,2
+"13.03.2025.TOPUK.GR.-0,6.jpg",0,Risk,2
+1GLUTEAL. GR. -0.3.jpg,1,Evre,evre
+1GLUTEAL.GR.-0.1 (1).jpg,0,Risk,2
+1GLUTEAL.GR.-0.1 (2).jpg,0,Risk,2
+1GLUTEAL.GR.-0.1 (3).jpg,0,Risk,2
+1GLUTEAL.GR.-0.1 (4).jpg,0,Risk,2
+1GLUTEAL.GR.-0.1 (5).jpg,0,Risk,2
+1GLUTEAL.GR.-0.1 (6).jpg,0,Risk,2
+1GLUTEAL.GR.-0.1 (7).jpg,0,Risk,2
+1GLUTEAL.GR.-0.1 (8).jpg,0,Risk,2
+1GLUTEAL.GR.-0.1.jpg,0,Risk,2
+1GLUTEAL.GR.-0.2 (1).jpg,0,Risk,2
+1GLUTEAL.GR.-0.2 (2).jpg,0,Risk,2
+1GLUTEAL.GR.-0.2 (3).jpg,0,Risk,2
+1GLUTEAL.GR.-0.2 (4).jpg,0,Risk,2
+1GLUTEAL.GR.-0.2 (5).jpg,0,Risk,2
+1GLUTEAL.GR.-0.2 (6).jpg,0,Risk,2
+1GLUTEAL.GR.-0.2 (7).jpg,0,Risk,2
+1GLUTEAL.GR.-0.2 (8).jpg,0,Risk,2
+1GLUTEAL.GR.-0.2 (9).jpg,0,Risk,2
+1GLUTEAL.GR.-0.2.jpg,0,Risk,2
+1GLUTEAL.GR.-0.3 (1).jpg,0,Risk,0
+1GLUTEAL.GR.-0.3 (2).jpg,0,Risk,0
+1GLUTEAL.GR.-0.3 (3).jpg,0,Risk,2
+1GLUTEAL.GR.-0.3 (4).jpg,0,Risk,2
+1GLUTEAL.GR.-0.3 (5).jpg,0,Risk,2
+1GLUTEAL.GR.-0.3 (6).jpg,0,Risk,2
+1GLUTEAL.GR.-0.3 (7).jpg,0,Risk,2
+1GLUTEAL.GR.-0.3.jpg,0,Risk,2
+1GLUTEAL.GR.-0.4 (1).jpg,0,Risk,2
+1GLUTEAL.GR.-0.4 (2).jpg,0,Risk,2
+1GLUTEAL.GR.-0.4 (3).jpg,0,Risk,2
+1GLUTEAL.GR.-0.4 (4).jpg,0,Risk,2
+1GLUTEAL.GR.-0.4.jpg,0,Risk,2
+1GLUTEAL.GR.-0.5 (1).jpg,0,Risk,2
+1GLUTEAL.GR.-0.5 (2).jpg,0,Risk,2
+1GLUTEAL.GR.-0.5 (3).jpg,0,Risk,2
+1GLUTEAL.GR.-0.5 (4).jpg,0,Risk,2
+1GLUTEAL.GR.-0.5 (5).jpg,1,Evre,evre
+1GLUTEAL.GR.-0.5 (6).jpg,1,Evre,evre
+1GLUTEAL.GR.-0.5 (7).jpg,0,Risk,2
+1GLUTEAL.GR.-0.5.jpg,0,Risk,2
+1GLUTEAL.GR.-0.6 (1).jpg,0,Risk,2
+1GLUTEAL.GR.-0.6 (2).jpg,0,Risk,2
+1GLUTEAL.GR.-0.6 (3).jpg,0,Risk,2
+1GLUTEAL.GR.-0.6 (4).jpg,0,Risk,2
+1GLUTEAL.GR.-0.6 (5).jpg,0,Risk,2
+1GLUTEAL.GR.-0.6 (6).jpg,0,Risk,2
+1GLUTEAL.GR.-0.6 (7).jpg,0,Risk,2
+1GLUTEAL.GR.-0.6.jpg,0,Risk,2
+1GLUTEAL.GR.-0.7 (1).jpg,0,Risk,2
+1GLUTEAL.GR.-0.7 (2).jpg,1,Evre,evre
+1GLUTEAL.GR.-0.7 (3).jpg,0,Risk,2
+1GLUTEAL.GR.-0.7 (4).jpg,0,Risk,2
+1GLUTEAL.GR.-0.7 (5).jpg,0,Risk,2
+1GLUTEAL.GR.-0.8 (1).jpg,0,Risk,2
+1GLUTEAL.GR.-0.8 (2).jpg,1,Evre,evre
+1GLUTEAL.GR.-0.8 (3).jpg,0,Risk,2
+1GLUTEAL.GR.-0.8.jpg,0,Risk,2
+1GLUTEAL.GR.-0.9 (1).jpg,0,Risk,2
+1GLUTEAL.GR.-0.9.jpg,0,Risk,2
+1GLUTEL.GR.-0.6.jpg,0,Risk,2
+1GLUTEL.GR.-0.8.jpg,0,Risk,2
+1SAKRUM.GR.-0.1.jpg,1,Evre,evre
+1SAKRUM.GR.-0.2 (1).jpg,1,Evre,evre
+1SAKRUM.GR.-0.2 (2).jpg,0,Risk,2
+1SAKRUM.GR.-0.2.jpg,0,Risk,2
+1SAKRUM.GR.-0.3 (1).jpg,0,Risk,2
+1SAKRUM.GR.-0.3.jpg,1,Evre,evre
+1SAKRUM.GR.-0.4.jpg,0,Risk,2
+1SAKRUM.GR.-0.5 (1).jpg,0,Risk,2
+1SAKRUM.GR.-0.5 (2).jpg,0,Risk,2
+1SAKRUM.GR.-0.5 (3).jpg,0,Risk,2
+1SAKRUM.GR.-0.5.jpg,0,Risk,2
+1SAKRUM.GR.-0.6 (1).jpg,0,Risk,2
+1SAKRUM.GR.-0.6.jpg,0,Risk,2
+1SAKRUM.GR.-0.7 (1).jpg,0,Risk,2
+1SAKRUM.GR.-0.7.jpg,0,Risk,2
+1SAKRUM.GR.-0.8.jpg,0,Risk,2
+1SAKRUM.GR.-0.9 (1).jpg,0,Risk,2
+1SAKRUM.GR.-0.9.jpg,0,Risk,2
+1TOPUK.GR.-0.1 (1).jpg,0,Risk,2
+1TOPUK.GR.-0.1 (2).jpg,0,Risk,2
+1TOPUK.GR.-0.1 (3).jpg,0,Risk,2
+1TOPUK.GR.-0.1.jpg,0,Risk,2
+1TOPUK.GR.-0.2.jpg,0,Risk,2
+1TOPUK.GR.-0.4 (1).jpg,0,Risk,2
+1TOPUK.GR.-0.4.jpg,0,Risk,2
+1TOPUK.GR.-0.5 (1).jpg,0,Risk,2
+1TOPUK.GR.-0.5 (2).jpg,0,Risk,2
+1TOPUK.GR.-0.5 (3).jpg,0,Risk,2
+1TOPUK.GR.-0.5.jpg,0,Risk,2
+1TOPUK.GR.-0.6.jpg,0,Risk,2
+1TOPUK.GR.-0.7 (1).jpg,0,Risk,2
+1TOPUK.GR.-0.7 (2).jpg,0,Risk,2
+1TOPUK.GR.-0.7.jpg,0,Risk,2
+1TOPUK.GR.-0.8 (1).jpg,0,Risk,2
+1TOPUK.GR.-0.8 (2).jpg,0,Risk,2
+1TOPUK.GR.-0.8 (3).jpg,0,Risk,2
+1TOPUK.GR.-0.8 (4).jpg,0,Risk,2
+1TOPUK.GR.-0.8.jpg,0,Risk,2
+1TOPUK.GR.-0.9 (1).jpg,1,Evre,evre
+1TOPUK.GR.-0.9 (2).jpg,0,Risk,2
+1TOPUK.GR.-0.9 (3).jpg,0,Risk,2
+1TOPUK.GR.-0.9.jpg,0,Risk,2
+2.22.04.2025.GLUTEAL.GR.-0.1.jpg,1,Evre,evre
+2.22.04.2025.GLUTEAL.GR.-0.2.jpg,0,Risk,2
+2.22.04.2025.GLUTEAL.GR.-0.3.jpg,0,Risk,2
+2.22.04.2025.GLUTEAL.GR.-0.4.jpg,0,Risk,2
+2.22.04.2025.GLUTEAL.GR.-0.6.jpg,0,Risk,2
+2.22.04.2025.GLUTEAL.GR.-0.8.jpg,0,Risk,2
+2.22.04.2025.SAKRUM.GR.-0.1.jpg,1,Evre,evre
+2.22.04.2025.TOPUK.GR.-0.9.jpg,0,Risk,2
+2.GLUTEAL.GR.-0.4.jpg,0,Risk,2
+22.04.2025.1GLUTEAL.GR.-0.7.jpg,0,Risk,2
+22.04.2025.GLUTEAL.GR.-0.2.jpg,1,Evre,evre
+22.04.2025.GLUTEAL.GR.-0.3.jpg,0,Risk,2
+22.04.2025.GLUTEAL.GR.-0.4.jpg,0,Risk,2
+22.04.2025.GLUTEAL.GR.-0.7.jpg,0,Risk,2
+22.04.2025.GLUTEAL.GR.-0.8.jpg,0,Risk,2
+22.04.2025.SAKRUM.GR.-0.1.jpg,0,Risk,2
+22.04.2025.SAKRUM.GR.-0.3.jpg,0,Risk,2
+22.04.2025.TOPUK.GR.-0.1.jpg,0,Risk,2
+22.04.2025.TOPUK.GR.-0.6.jpg,0,Risk,2
+22.04.2025.TOPUK.GR.-0.9.jpg,0,Risk,2
+"28.03.2025.GLUTEAL.GR.-0,1.jpg",0,Risk,2
+"28.03.2025.GLUTEAL.GR.-0,2.jpg",0,Risk,0
+"28.03.2025.GLUTEAL.GR.-0,3.jpg",0,Risk,2
+"28.03.2025.GLUTEAL.GR.-0,4.jpg",0,Risk,2
+"28.03.2025.SAKRUM.GR.-0,2.jpg",0,Risk,2
+2GLUTEAL.GR.-0.1 (1).jpg,0,Risk,2
+2GLUTEAL.GR.-0.1 (2).jpg,0,Risk,0
+2GLUTEAL.GR.-0.1 (3).jpg,0,Risk,2
+2GLUTEAL.GR.-0.1 (4).jpg,1,Evre,evre
+2GLUTEAL.GR.-0.1 (5).jpg,0,Risk,2
+2GLUTEAL.GR.-0.1.jpg,0,Risk,2
+2GLUTEAL.GR.-0.2 (1).jpg,0,Risk,2
+2GLUTEAL.GR.-0.2 (2).jpg,0,Risk,2
+2GLUTEAL.GR.-0.2 (3).jpg,0,Risk,2
+2GLUTEAL.GR.-0.2.jpg,0,Risk,2
+2GLUTEAL.GR.-0.3 (1).jpg,0,Risk,2
+2GLUTEAL.GR.-0.3 (2).jpg,0,Risk,2
+2GLUTEAL.GR.-0.3.jpg,0,Risk,2
+2GLUTEAL.GR.-0.4 (1).jpg,0,Risk,2
+2GLUTEAL.GR.-0.4.jpg,0,Risk,2
+2GLUTEAL.GR.-0.5 (1).jpg,0,Risk,2
+2GLUTEAL.GR.-0.5 (2).jpg,0,Risk,2
+2GLUTEAL.GR.-0.5 (3).jpg,0,Risk,2
+2GLUTEAL.GR.-0.5 (4).jpg,0,Risk,2
+2GLUTEAL.GR.-0.5 (5).jpg,0,Risk,2
+2GLUTEAL.GR.-0.5 (6).jpg,0,Risk,2
+2GLUTEAL.GR.-0.5 (7).jpg,0,Risk,2
+2GLUTEAL.GR.-0.5.jpg,0,Risk,2
+2GLUTEAL.GR.-0.6 (1).jpg,0,Risk,2
+2GLUTEAL.GR.-0.6 (2).jpg,0,Risk,2
+2GLUTEAL.GR.-0.6.jpg,0,Risk,2
+2GLUTEAL.GR.-0.8 (1).jpg,0,Risk,2
+2GLUTEAL.GR.-0.8.jpg,0,Risk,2
+2GLUTEAL.GR.-0.9.jpg,0,Risk,2
+2GLUTEL.GR.-0.2.jpg,0,Risk,2
+2GLUTEL.GR.-0.6.jpg,0,Risk,2
+2SAKRUM.GR.-0.2 (1).jpg,0,Risk,2
+2SAKRUM.GR.-0.2.jpg,0,Risk,2
+2SAKRUM.GR.-0.3 (1).jpg,0,Risk,2
+2SAKRUM.GR.-0.3.jpg,0,Risk,2
+2SAKRUM.GR.-0.5.jpg,0,Risk,2
+2SAKRUM.GR.-0.8.jpg,0,Risk,2
+2SAKRUM.GR.-0.9.jpg,0,Risk,2
+2TOPUK.GR.-0.1 (1).jpg,0,Risk,2
+2TOPUK.GR.-0.1.jpg,0,Risk,2
+2TOPUK.GR.-0.4.jpg,0,Risk,2
+2TOPUK.GR.-0.5.jpg,0,Risk,2
+2TOPUK.GR.-0.6.jpg,0,Risk,2
+2TOPUK.GR.-0.7.jpg,0,Risk,2
+2TOPUK.GR.-0.8.jpg,0,Risk,2
+2TOPUK.GR.-0.9.jpg,0,Risk,2
+3.22.04.2025.GLUTEAL.GR-0.2.jpg,0,Risk,2
+3.22.04.2025.GLUTEAL.GR.-0.2.jpg,1,Evre,evre
+3GLUTEAL.GR.-0.1 (1).jpg,0,Risk,2
+3GLUTEAL.GR.-0.1 (2).jpg,1,Evre,evre
+3GLUTEAL.GR.-0.1.jpg,0,Risk,2
+3GLUTEAL.GR.-0.3 (1).jpg,0,Risk,2
+3GLUTEAL.GR.-0.3.jpg,0,Risk,2
+3GLUTEAL.GR.-0.5 (1).jpg,0,Risk,2
+3GLUTEAL.GR.-0.5 (2).jpg,0,Risk,2
+3GLUTEAL.GR.-0.5 (3).jpg,0,Risk,2
+3GLUTEAL.GR.-0.5.jpg,0,Risk,2
+3GLUTEAL.GR.-0.6 (1).jpg,0,Risk,2
+3GLUTEAL.GR.-0.6.jpg,0,Risk,2
+3SAKRUM.GR.-0.2.jpg,0,Risk,0
+3SAKRUM.GR.-0.3.jpg,1,Evre,evre
+3SAKRUM.GR.-0.7.jpg,0,Risk,2
+3TOPUK.GR.-0.1.jpg,0,Risk,2
+3TOPUK.GR.-0.5.jpg,0,Risk,2
+4.22.04.2025.GLUTEAL.GR.-0.1.jpg,1,Evre,evre
+4.22.04.2025.GLUTEAL.GR.-0.2.jpg,0,Risk,2
+4GLUTEAL.GR.-0.3.jpg,0,Risk,2
+4GLUTEAL.GR.-0.5 (1).jpg,0,Risk,2
+4GLUTEAL.GR.-0.5 (2).jpg,0,Risk,2
+4GLUTEAL.GR.-0.5.jpg,0,Risk,2
+5.22.04.2025.GLUTEAL.GR.-0.2.jpg,0,Risk,2
+5.22.04.2025.GLUTEAL.GR.-0.3.jpg,0,Risk,2
+5GLUTEAL.GR.-0.5 (1).jpg,0,Risk,2
+5GLUTEAL.GR.-0.5.jpg,0,Risk,2
+6.22.04.2025.GLUTEAL.GR.-0.4.jpg,1,Evre,evre
+"GLUTEAL. GR, -0.1.jpg",1,Evre,evre
+GLUTEAL. GR. -0.1.jpg,0,Risk,2
+GLUTEAL. GR. -0.2 (2).jpg,1,Evre,evre
+GLUTEAL. GR. -0.2.jpg,1,Evre,evre
+GLUTEAL. GR. -0.3.jpg,0,Risk,2
+GLUTEAL. GR. -0.4.jpg,1,Evre,evre
+GLUTEAL. GR. -0.6.jpg,0,Risk,2
+"GLUTEAL. YR. -0,6.jpg",0,Risk,2
+GLUTEAL.G.-0.4.jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (1).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (10).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (11).jpg,1,Evre,evre
+GLUTEAL.GR.-0.1 (12).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (13).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (14).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (2).jpg,1,Evre,evre
+GLUTEAL.GR.-0.1 (3).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (4).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (5).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (6).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (7).jpg,0,Risk,0
+GLUTEAL.GR.-0.1 (8).jpg,0,Risk,2
+GLUTEAL.GR.-0.1 (9).jpg,0,Risk,2
+GLUTEAL.GR.-0.1.jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (1).jpg,1,Evre,evre
+GLUTEAL.GR.-0.2 (10).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (11).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (12).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (13).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (14).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (15).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (16).jpg,1,Evre,evre
+GLUTEAL.GR.-0.2 (17).jpg,1,Evre,evre
+GLUTEAL.GR.-0.2 (2).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (3).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (4).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (5).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (6).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (7).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (8).jpg,0,Risk,2
+GLUTEAL.GR.-0.2 (9).jpg,0,Risk,2
+GLUTEAL.GR.-0.2.jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (1).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (10).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (11).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (12).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (13).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (14).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (15).jpg,1,Evre,evre
+GLUTEAL.GR.-0.3 (2).jpeg,1,Evre,evre
+GLUTEAL.GR.-0.3 (2).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (3).jpeg,1,Evre,evre
+GLUTEAL.GR.-0.3 (3).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (4).jpg,1,Evre,evre
+GLUTEAL.GR.-0.3 (5).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (6).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (7).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (8).jpg,0,Risk,2
+GLUTEAL.GR.-0.3 (9).jpg,0,Risk,2
+GLUTEAL.GR.-0.3.jpeg,0,Risk,2
+GLUTEAL.GR.-0.3.jpg,0,Risk,2
+GLUTEAL.GR.-0.4 (1).jpg,0,Risk,2
+GLUTEAL.GR.-0.4 (2).jpg,0,Risk,2
+GLUTEAL.GR.-0.4 (3).jpg,0,Risk,2
+GLUTEAL.GR.-0.4 (4).jpg,0,Risk,2
+GLUTEAL.GR.-0.4 (5).jpg,0,Risk,2
+GLUTEAL.GR.-0.4 (6).jpg,0,Risk,2
+GLUTEAL.GR.-0.4 (7).jpg,0,Risk,2
+GLUTEAL.GR.-0.4 (8).jpg,0,Risk,2
+GLUTEAL.GR.-0.4 (9).jpg,0,Risk,2
+GLUTEAL.GR.-0.4.jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (1).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (10).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (11).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (12).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (13).jpg,1,Evre,evre
+GLUTEAL.GR.-0.5 (14).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (15).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (16).jpg,1,Evre,evre
+GLUTEAL.GR.-0.5 (17).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (18).jpg,1,Evre,evre
+GLUTEAL.GR.-0.5 (2).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (3).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (4).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (5).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (6).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (7).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (8).jpg,0,Risk,2
+GLUTEAL.GR.-0.5 (9).jpg,0,Risk,2
+GLUTEAL.GR.-0.5.jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (1).jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (10).jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (11).jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (12).jpg,1,Evre,evre
+GLUTEAL.GR.-0.6 (13).jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (2).jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (3).jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (4).jpg,1,Evre,evre
+GLUTEAL.GR.-0.6 (5).jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (6).jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (7).jpg,0,Risk,2
+GLUTEAL.GR.-0.6 (8).jpg,1,Evre,evre
+GLUTEAL.GR.-0.6 (9).jpg,0,Risk,2
+GLUTEAL.GR.-0.6.jpg,0,Risk,2
+GLUTEAL.GR.-0.7 (1).jpg,0,Risk,2
+GLUTEAL.GR.-0.7 (10).jpg,1,Evre,evre
+GLUTEAL.GR.-0.7 (11).jpg,1,Evre,evre
+GLUTEAL.GR.-0.7 (2).jpg,0,Risk,2
+GLUTEAL.GR.-0.7 (3).jpg,0,Risk,2
+GLUTEAL.GR.-0.7 (4).jpg,0,Risk,2
+GLUTEAL.GR.-0.7 (5).jpg,0,Risk,2
+GLUTEAL.GR.-0.7 (6).jpg,0,Risk,2
+GLUTEAL.GR.-0.7 (7).jpg,1,Evre,evre
+GLUTEAL.GR.-0.7 (8).jpg,0,Risk,2
+GLUTEAL.GR.-0.7 (9).jpg,1,Evre,evre
+GLUTEAL.GR.-0.7.jpg,0,Risk,2
+GLUTEAL.GR.-0.8 (1).jpg,1,Evre,evre
+GLUTEAL.GR.-0.8 (10).jpg,1,Evre,evre
+GLUTEAL.GR.-0.8 (11).jpg,1,Evre,evre
+GLUTEAL.GR.-0.8 (12).jpg,1,Evre,evre
+GLUTEAL.GR.-0.8 (13).jpg,0,Risk,2
+GLUTEAL.GR.-0.8 (14).jpg,1,Evre,evre
+GLUTEAL.GR.-0.8 (2).jpg,0,Risk,2
+GLUTEAL.GR.-0.8 (3).jpg,0,Risk,2
+GLUTEAL.GR.-0.8 (4).jpg,0,Risk,2
+GLUTEAL.GR.-0.8 (5).jpg,0,Risk,2
+GLUTEAL.GR.-0.8 (6).jpg,0,Risk,2
+GLUTEAL.GR.-0.8 (7).jpg,0,Risk,2
+GLUTEAL.GR.-0.8 (8).jpg,0,Risk,2
+GLUTEAL.GR.-0.8 (9).jpg,0,Risk,2
+GLUTEAL.GR.-0.8.jpeg,1,Evre,evre
+GLUTEAL.GR.-0.8.jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (1).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (10).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (11).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (12).jpg,1,Evre,evre
+GLUTEAL.GR.-0.9 (13).jpg,1,Evre,evre
+GLUTEAL.GR.-0.9 (2).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (3).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (4).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (5).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (6).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (7).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (8).jpg,0,Risk,2
+GLUTEAL.GR.-0.9 (9).jpg,0,Risk,2
+GLUTEAL.GR.-0.9.jpg,0,Risk,2
+GLUTEAL.GR.-01.jpg,0,Risk,2
+GLUTEL.GR.-0.2.jpg,0,Risk,2
+LATERAL MALLEOL.GR.-0.6.jpg,0,Risk,2
+Malleus.jpg,1,Evre,evre
+SAKRUM. GR. -0.8.jpg,0,Risk,2
+SAKRUM. GR.-0.4.jpg,1,Evre,evre
+SAKRUM.GR.-0.1 (1).jpg,0,Risk,2
+SAKRUM.GR.-0.1 (2).jpeg,0,Risk,2
+SAKRUM.GR.-0.1 (2).jpg,0,Risk,2
+SAKRUM.GR.-0.1 (3).jpg,0,Risk,2
+SAKRUM.GR.-0.1 (4).jpg,0,Risk,2
+SAKRUM.GR.-0.1 (5).jpg,0,Risk,2
+SAKRUM.GR.-0.1.jpeg,1,Evre,evre
+SAKRUM.GR.-0.1.jpg,0,Risk,2
+SAKRUM.GR.-0.2 (1).jpg,0,Risk,0
+SAKRUM.GR.-0.2 (2).jpg,0,Risk,2
+SAKRUM.GR.-0.2 (3).jpg,0,Risk,2
+SAKRUM.GR.-0.2 (4).jpg,0,Risk,2
+SAKRUM.GR.-0.2 (5).jpg,0,Risk,2
+SAKRUM.GR.-0.2 (6).jpg,0,Risk,2
+SAKRUM.GR.-0.2 (7).jpg,0,Risk,0
+SAKRUM.GR.-0.2.jpg,0,Risk,2
+SAKRUM.GR.-0.3 (1).jpg,0,Risk,2
+SAKRUM.GR.-0.3 (2).jpg,0,Risk,2
+SAKRUM.GR.-0.3 (3).jpg,0,Risk,2
+SAKRUM.GR.-0.3 (4).jpg,0,Risk,2
+SAKRUM.GR.-0.3 (5).jpg,0,Risk,2
+SAKRUM.GR.-0.3 (6).jpg,0,Risk,2
+SAKRUM.GR.-0.3 (7).jpg,0,Risk,2
+SAKRUM.GR.-0.3 (8).jpg,0,Risk,0
+SAKRUM.GR.-0.3 (9).jpg,1,Evre,evre
+SAKRUM.GR.-0.3.jpg,0,Risk,2
+SAKRUM.GR.-0.4 (1).jpg,0,Risk,2
+SAKRUM.GR.-0.4 (2).jpg,1,Evre,evre
+SAKRUM.GR.-0.4.jpg,0,Risk,2
+SAKRUM.GR.-0.5 (1).jpg,0,Risk,2
+SAKRUM.GR.-0.5 (10).jpg,1,Evre,evre
+SAKRUM.GR.-0.5 (11).jpg,0,Risk,2
+SAKRUM.GR.-0.5 (2).jpg,0,Risk,2
+SAKRUM.GR.-0.5 (3).jpg,0,Risk,2
+SAKRUM.GR.-0.5 (4).jpg,0,Risk,2
+SAKRUM.GR.-0.5 (5).jpg,0,Risk,0
+SAKRUM.GR.-0.5 (6).jpg,0,Risk,2
+SAKRUM.GR.-0.5 (7).jpg,0,Risk,2
+SAKRUM.GR.-0.5 (8).jpg,0,Risk,2
+SAKRUM.GR.-0.5 (9).jpg,0,Risk,2
+SAKRUM.GR.-0.5.jpg,0,Risk,2
+SAKRUM.GR.-0.6 (1).jpg,1,Evre,evre
+SAKRUM.GR.-0.6 (2).jpg,1,Evre,evre
+SAKRUM.GR.-0.6 (3).jpg,0,Risk,2
+SAKRUM.GR.-0.6 (4).jpg,0,Risk,2
+SAKRUM.GR.-0.6 (5).jpg,1,Evre,evre
+SAKRUM.GR.-0.6 (6).jpg,1,Evre,evre
+SAKRUM.GR.-0.6 (7).jpg,0,Risk,2
+SAKRUM.GR.-0.6 (8).jpg,1,Evre,evre
+SAKRUM.GR.-0.6.jpg,1,Evre,evre
+SAKRUM.GR.-0.7 (1).jpg,0,Risk,2
+SAKRUM.GR.-0.7 (2).jpg,0,Risk,2
+SAKRUM.GR.-0.7 (3).jpg,0,Risk,2
+SAKRUM.GR.-0.7 (4).jpg,0,Risk,2
+SAKRUM.GR.-0.7 (5).jpg,0,Risk,2
+SAKRUM.GR.-0.7 (6).jpg,0,Risk,2
+SAKRUM.GR.-0.7 (7).jpg,0,Risk,2
+SAKRUM.GR.-0.8 (1).jpg,1,Evre,evre
+SAKRUM.GR.-0.8 (2).jpg,0,Risk,2
+SAKRUM.GR.-0.8 (3).jpg,0,Risk,2
+SAKRUM.GR.-0.8 (4).jpg,1,Evre,evre
+SAKRUM.GR.-0.8 (5).jpg,0,Risk,2
+SAKRUM.GR.-0.8 (6).jpg,0,Risk,2
+SAKRUM.GR.-0.8 (7).jpg,1,Evre,evre
+SAKRUM.GR.-0.8 (8).jpg,1,Evre,evre
+SAKRUM.GR.-0.8 (9).jpg,1,Evre,evre
+SAKRUM.GR.-0.8.jpg,1,Evre,evre
+SAKRUM.GR.-0.9 (1).jpg,0,Risk,2
+SAKRUM.GR.-0.9 (2).jpg,0,Risk,2
+SAKRUM.GR.-0.9 (3).jpg,0,Risk,2
+SAKRUM.GR.-0.9 (4).jpg,0,Risk,2
+SAKRUM.GR.-0.9 (5).jpg,1,Evre,evre
+SAKRUM.GR.-0.9.jpg,1,Evre,evre
+SAKUM.GR.-0.1.jpg,0,Risk,2
+SKAPULA.GR.-0.2 (2).jpeg,1,Evre,evre
+SKAPULA.GR.-0.2.jpeg,1,Evre,evre
+SKAPULA.GR.-0.2.jpg,1,Evre,evre
+SKAPULA.GR.-0.3.jpeg,1,Evre,evre
+SKAPULA.GR.-0.4.jpg,1,Evre,evre
+TOPUK .GR. -0.1.jpg,0,Risk,2
+TOPUK GR. -0.6.jpg,1,Evre,evre
+TOPUK. GR. -0.4.jpg,0,Risk,2
+TOPUK.GR.-0.1 (1).jpg,0,Risk,2
+TOPUK.GR.-0.1 (2).jpg,0,Risk,2
+TOPUK.GR.-0.1 (3).jpg,0,Risk,2
+TOPUK.GR.-0.1 (4).jpg,0,Risk,2
+TOPUK.GR.-0.1 (5).jpg,0,Risk,2
+TOPUK.GR.-0.1 (6).jpg,0,Risk,2
+TOPUK.GR.-0.1.jpeg,0,Risk,2
+TOPUK.GR.-0.1.jpg,0,Risk,2
+TOPUK.GR.-0.2 (1).jpg,0,Risk,2
+TOPUK.GR.-0.2 (2).jpg,0,Risk,2
+TOPUK.GR.-0.2 (3).jpg,0,Risk,2
+TOPUK.GR.-0.2 (4).jpg,0,Risk,2
+TOPUK.GR.-0.2 (5).jpg,0,Risk,2
+TOPUK.GR.-0.2 (6).jpg,0,Risk,2
+TOPUK.GR.-0.2.jpg,0,Risk,2
+TOPUK.GR.-0.3 (1).jpg,0,Risk,2
+TOPUK.GR.-0.3 (2).jpg,0,Risk,2
+TOPUK.GR.-0.3 (3).jpg,0,Risk,2
+TOPUK.GR.-0.3 (4).jpg,0,Risk,2
+TOPUK.GR.-0.3.jpg,0,Risk,2
+TOPUK.GR.-0.4 (1).jpg,0,Risk,2
+TOPUK.GR.-0.4 (2).jpg,1,Evre,evre
+TOPUK.GR.-0.4 (3).jpg,0,Risk,2
+TOPUK.GR.-0.4 (4).jpg,0,Risk,2
+TOPUK.GR.-0.4 (5).jpg,0,Risk,2
+TOPUK.GR.-0.4.jpg,0,Risk,2
+TOPUK.GR.-0.5 (1).jpg,0,Risk,2
+TOPUK.GR.-0.5 (2).jpg,0,Risk,2
+TOPUK.GR.-0.5 (3).jpg,0,Risk,2
+TOPUK.GR.-0.5 (4).jpg,0,Risk,2
+TOPUK.GR.-0.5 (5).jpg,1,Evre,evre
+TOPUK.GR.-0.5 (6).jpg,0,Risk,2
+TOPUK.GR.-0.5 (7).jpg,0,Risk,2
+TOPUK.GR.-0.5 (8).jpg,0,Risk,2
+TOPUK.GR.-0.5.jpg,0,Risk,2
+TOPUK.GR.-0.6 (1).jpg,0,Risk,2
+TOPUK.GR.-0.6 (2).jpg,0,Risk,2
+TOPUK.GR.-0.6 (3).jpg,0,Risk,2
+TOPUK.GR.-0.6 (4).jpg,0,Risk,2
+TOPUK.GR.-0.6 (5).jpg,0,Risk,2
+TOPUK.GR.-0.6 (6).jpg,0,Risk,2
+TOPUK.GR.-0.6 (7).jpg,0,Risk,2
+TOPUK.GR.-0.6.jpg,0,Risk,2
+TOPUK.GR.-0.7 (1).jpeg,0,Risk,2
+TOPUK.GR.-0.7 (1).jpg,0,Risk,2
+TOPUK.GR.-0.7 (2).jpeg,0,Risk,2
+TOPUK.GR.-0.7 (2).jpg,0,Risk,2
+TOPUK.GR.-0.7 (3).jpg,0,Risk,2
+TOPUK.GR.-0.7 (4).jpg,0,Risk,2
+TOPUK.GR.-0.7 (5).jpg,0,Risk,2
+TOPUK.GR.-0.7 (6).jpg,0,Risk,2
+TOPUK.GR.-0.7 (7).jpg,0,Risk,2
+TOPUK.GR.-0.7 (8).jpg,0,Risk,2
+TOPUK.GR.-0.7.jpeg,0,Risk,2
+TOPUK.GR.-0.7.jpg,0,Risk,2
+TOPUK.GR.-0.8 (1).jpg,0,Risk,2
+TOPUK.GR.-0.8 (10).jpg,0,Risk,2
+TOPUK.GR.-0.8 (11).jpg,0,Risk,2
+TOPUK.GR.-0.8 (12).jpg,0,Risk,2
+TOPUK.GR.-0.8 (2).jpg,0,Risk,2
+TOPUK.GR.-0.8 (3).jpg,0,Risk,2
+TOPUK.GR.-0.8 (4).jpg,0,Risk,2
+TOPUK.GR.-0.8 (5).jpg,1,Evre,evre
+TOPUK.GR.-0.8 (6).jpg,0,Risk,2
+TOPUK.GR.-0.8 (7).jpg,0,Risk,2
+TOPUK.GR.-0.8 (8).jpg,0,Risk,2
+TOPUK.GR.-0.8 (9).jpg,0,Risk,2
+TOPUK.GR.-0.8.jpg,0,Risk,2
+TOPUK.GR.-0.9 (1).jpg,0,Risk,2
+TOPUK.GR.-0.9 (2).jpg,0,Risk,2
+TOPUK.GR.-0.9 (3).jpg,0,Risk,2
+TOPUK.GR.-0.9 (4).jpg,0,Risk,2
+TOPUK.GR.-0.9 (5).jpg,0,Risk,2
+TOPUK.GR.-0.9 (6).jpg,0,Risk,2
+TOPUK.GR.-0.9.jpeg,1,Evre,evre
+TOPUK.GR.-0.9.jpg,1,Evre,evre
+topuk.gr.risk 2025-07-31 saat 16.08.05_2a4aef86.jpg,1,Evre,evre
+02.05.2025.GLUTEAL.YR.-1.1.jpg,1,Evre,evre
+"13.03.2025.TOPUK.YR.-1,1.jpg",0,Risk,2
+"13.03.2025.TOPUK.YR.-1,2.jpg",0,Risk,2
+"13.03.2025.TOPUK.YR.-1,5.jpg",1,Evre,evre
+"13.03.2025.TOPUK.YR.-1,8.jpg",0,Risk,2
+1GLUTEAL.YR.-1.1.jpg,0,Risk,2
+1TOPUK.YR.-1.1 (1).jpg,0,Risk,2
+1TOPUK.YR.-1.1.jpg,0,Risk,2
+1TOPUK.YR.-1.3.jpg,0,Risk,2
+1TOPUK.YR.-1.6.jpg,0,Risk,2
+1TOPUK.YR.-1.7.jpg,0,Risk,2
+1TOPUK.YR.-1.jpg,0,Risk,2
+22.04.2025.GLUTEAL.YR.-1.1.jpg,0,Risk,2
+22.04.2025.GLUTEAL.YR.-1.5.jpg,0,Risk,2
+22.04.2025.TOPUK.YR.-1.1.jpg,0,Risk,2
+22.04.2025.TOPUK.YR.-1.2.jpg,1,Evre,evre
+22.04.2025.TOPUK.YR.-1.4.jpg,0,Risk,2
+22.04.2025.TOPUK.YR.-1.5.jpg,0,Risk,2
+"28.03.2025.GLUTEAL.YR.-1,2.jpg",1,Evre,evre
+28.03.2025.gluteal.yr.-1.jpg,0,Risk,2
+"28.03.2025.TOPUK.YR.-1,6.jpg",0,Risk,2
+2TOPUK.YR.-1.1.jpg,0,Risk,2
+DİRSEK.YR.-1.0.jpg,1,Evre,evre
+DİRSEK.YR.-1.2.jpg,1,Evre,evre
+DİRSEK.YR.-1.8.jpg,1,Evre,evre
+DİRSEK.YR.-1.9.jpg,0,Risk,2
+DİRSEK.YR.-2.0.jpg,1,Evre,evre
+GLUTEAL. YR -1.1.jpg,0,Risk,2
+GLUTEAL. YR. -1.1.jpg,0,Risk,2
+GLUTEAL. YR.-1.2.jpg,0,Risk,2
+GLUTEAL.YR.-1.0 (2).jpg,1,Evre,evre
+GLUTEAL.YR.-1.0 (3).jpg,1,Evre,evre
+GLUTEAL.YR.-1.0.jpg,1,Evre,evre
+GLUTEAL.YR.-1.1 (1).jpg,0,Risk,2
+GLUTEAL.YR.-1.1 (2).jpg,0,Risk,2
+GLUTEAL.YR.-1.1 (3).jpg,1,Evre,evre
+GLUTEAL.YR.-1.1 (4).jpg,0,Risk,2
+GLUTEAL.YR.-1.1 (5).jpg,1,Evre,evre
+GLUTEAL.YR.-1.1 (6).jpg,1,Evre,evre
+GLUTEAL.YR.-1.1.jpg,0,Risk,2
+GLUTEAL.YR.-1.2 (1).jpg,1,Evre,evre
+GLUTEAL.YR.-1.2 (2).jpg,1,Evre,evre
+GLUTEAL.YR.-1.2 (3).jpg,1,Evre,evre
+GLUTEAL.YR.-1.2 (4).jpg,1,Evre,evre
+GLUTEAL.YR.-1.2.jpg,0,Risk,2
+GLUTEAL.YR.-1.3 (1).jpg,0,Risk,2
+GLUTEAL.YR.-1.3 (2).jpg,1,Evre,evre
+GLUTEAL.YR.-1.3 (3).jpg,1,Evre,evre
+GLUTEAL.YR.-1.3.jpg,0,Risk,2
+GLUTEAL.YR.-1.4 (1).jpg,1,Evre,evre
+GLUTEAL.YR.-1.4 (2).jpg,0,Risk,2
+GLUTEAL.YR.-1.4.jpg,0,Risk,2
+GLUTEAL.YR.-1.5 (1).jpg,1,Evre,evre
+GLUTEAL.YR.-1.5 (2).jpg,1,Evre,evre
+GLUTEAL.YR.-1.5 (3).jpg,1,Evre,evre
+GLUTEAL.YR.-1.5 (4).jpg,1,Evre,evre
+GLUTEAL.YR.-1.5 (5).jpg,1,Evre,evre
+GLUTEAL.YR.-1.5.jpg,1,Evre,evre
+GLUTEAL.YR.-1.6 (2).jpg,1,Evre,evre
+GLUTEAL.YR.-1.6 (3).jpg,1,Evre,evre
+GLUTEAL.YR.-1.6.jpg,0,Risk,2
+GLUTEAL.YR.-1.7 (1).jpg,1,Evre,evre
+GLUTEAL.YR.-1.7 (2).jpg,0,Risk,2
+GLUTEAL.YR.-1.7 (3).jpg,0,Risk,2
+GLUTEAL.YR.-1.7.jpg,1,Evre,evre
+GLUTEAL.YR.-1.8 (1).jpg,1,Evre,evre
+GLUTEAL.YR.-1.8 (2).jpg,1,Evre,evre
+GLUTEAL.YR.-1.8 (3).jpg,0,Risk,2
+GLUTEAL.YR.-1.8 (4).jpg,1,Evre,evre
+GLUTEAL.YR.-1.8 (5).jpg,0,Risk,2
+GLUTEAL.YR.-1.8 (6).jpg,0,Risk,2
+GLUTEAL.YR.-1.8 (7).jpg,0,Risk,2
+GLUTEAL.YR.-1.8 (8).jpg,1,Evre,evre
+GLUTEAL.YR.-1.8 (9).jpg,1,Evre,evre
+GLUTEAL.YR.-1.8.jpg,0,Risk,2
+GLUTEAL.YR.-1.9 (1).jpg,1,Evre,evre
+GLUTEAL.YR.-1.9 (2).jpg,0,Risk,2
+GLUTEAL.YR.-1.9 (3).jpg,1,Evre,evre
+GLUTEAL.YR.-1.9 (4).jpg,0,Risk,2
+GLUTEAL.YR.-1.9 (5).jpg,0,Risk,2
+GLUTEAL.YR.-1.9.jpg,0,Risk,2
+GLUTEAL.YR.-1.jpg,0,Risk,2
+GLUTEAL.YR.-2.0 (2).jpg,1,Evre,evre
+GLUTEAL.YR.-2.0 (3).jpg,1,Evre,evre
+GLUTEAL.YR.-2.0 (4).jpg,1,Evre,evre
+GLUTEAL.YR.-2.0 (5).jpg,1,Evre,evre
+GLUTEAL.YR.-2.0 (6).jpg,1,Evre,evre
+GLUTEAL.YR.-2.0 (7).jpg,1,Evre,evre
+GLUTEAL.YR.-2.0 (8).jpg,1,Evre,evre
+GLUTEAL.YR.-2.0.jpg,0,Risk,2
+LATERAL MALLEOL.YR.-1.9.jpg,0,Risk,2
+SAKRUM.YR.-1 (1).jpg,0,Risk,2
+SAKRUM.YR.-1 (2).jpg,0,Risk,2
+SAKRUM.YR.-1.0.jpg,0,Risk,2
+SAKRUM.YR.-1.1 (1).jpg,1,Evre,evre
+SAKRUM.YR.-1.1 (2).jpg,1,Evre,evre
+SAKRUM.YR.-1.1.jpg,0,Risk,2
+SAKRUM.YR.-1.2.jpg,1,Evre,evre
+SAKRUM.YR.-1.3 (1).jpg,0,Risk,2
+SAKRUM.YR.-1.3.jpg,0,Risk,2
+SAKRUM.YR.-1.4.jpg,0,Risk,2
+SAKRUM.YR.-1.5.jpg,0,Risk,2
+SAKRUM.YR.-1.6 (1).jpg,0,Risk,2
+SAKRUM.YR.-1.6 (2).jpg,1,Evre,evre
+SAKRUM.YR.-1.6 (3).jpg,1,Evre,evre
+SAKRUM.YR.-1.6.jpg,0,Risk,2
+SAKRUM.YR.-1.7.jpg,0,Risk,2
+SAKRUM.YR.-1.8.jpg,0,Risk,2
+SAKRUM.YR.-1.9 (2).jpg,1,Evre,evre
+SAKRUM.YR.-1.9.jpg,1,Evre,evre
+SAKRUM.YR.-1.jpg,0,Risk,2
+tibia.yr.2025-07-31 saat 16.06.55_473b6a31.jpg,1,Evre,evre
+TOPUK YR -1.1.jpg,0,Risk,2
+TOPUK. YR. -1.1.jpg,0,Risk,2
+TOPUK. YR. -1.3.jpg,0,Risk,2
+TOPUK. YR. -1.7.jpg,0,Risk,2
+TOPUK. YR. -1.8.jpg,0,Risk,2
+TOPUK. YR. -1.9.jpg,1,Evre,evre
+TOPUK. YR. -2.0.jpg,0,Risk,2
+TOPUK.YR-1.3.jpg,0,Risk,2
+TOPUK.YR.-1 (1).jpg,0,Risk,2
+TOPUK.YR.-1 (2).jpg,0,Risk,2
+TOPUK.YR.-1 (3).jpg,0,Risk,2
+TOPUK.YR.-1 (4).jpg,0,Risk,2
+TOPUK.YR.-1 (5).jpg,0,Risk,2
+TOPUK.YR.-1.0 (2).jpg,0,Risk,2
+TOPUK.YR.-1.0 (3).jpg,0,Risk,2
+TOPUK.YR.-1.0 (4).jpg,0,Risk,2
+TOPUK.YR.-1.0 (5).jpg,0,Risk,2
+TOPUK.YR.-1.0.jpg,0,Risk,2
+TOPUK.YR.-1.1 (1).jpg,1,Evre,evre
+TOPUK.YR.-1.1 (2).jpg,0,Risk,2
+TOPUK.YR.-1.1 (3).jpg,0,Risk,2
+TOPUK.YR.-1.1 (4).jpg,0,Risk,2
+TOPUK.YR.-1.1 (5).jpg,0,Risk,2
+TOPUK.YR.-1.1 (6).jpg,0,Risk,2
+TOPUK.YR.-1.1 (7).jpg,0,Risk,2
+TOPUK.YR.-1.1.jpeg,1,Evre,evre
+TOPUK.YR.-1.1.jpg,0,Risk,2
+TOPUK.YR.-1.2 (1).jpg,0,Risk,2
+TOPUK.YR.-1.2 (2).jpg,0,Risk,2
+TOPUK.YR.-1.2 (3).jpg,0,Risk,2
+TOPUK.YR.-1.2 (4).jpg,0,Risk,2
+TOPUK.YR.-1.2 (5).jpg,0,Risk,2
+TOPUK.YR.-1.2 (6).jpg,0,Risk,2
+TOPUK.YR.-1.2 (7).jpg,0,Risk,2
+TOPUK.YR.-1.2 (8).jpg,0,Risk,2
+TOPUK.YR.-1.2.jpeg,0,Risk,2
+TOPUK.YR.-1.2.jpg,0,Risk,2
+TOPUK.YR.-1.3 (1).jpg,0,Risk,2
+TOPUK.YR.-1.3 (2).jpg,0,Risk,2
+TOPUK.YR.-1.3 (3).jpg,0,Risk,2
+TOPUK.YR.-1.3.jpg,0,Risk,2
+TOPUK.YR.-1.4 (1).jpg,0,Risk,2
+TOPUK.YR.-1.4 (2).jpg,0,Risk,2
+TOPUK.YR.-1.4 (3).jpg,0,Risk,2
+TOPUK.YR.-1.4 (4).jpg,0,Risk,2
+TOPUK.YR.-1.4 (5).jpg,0,Risk,2
+TOPUK.YR.-1.4 (6).jpg,0,Risk,2
+TOPUK.YR.-1.4 (7).jpg,0,Risk,2
+TOPUK.YR.-1.4.jpg,1,Evre,evre
+TOPUK.YR.-1.5 (1).jpg,0,Risk,2
+TOPUK.YR.-1.5 (2).jpg,0,Risk,2
+TOPUK.YR.-1.5 (3).jpg,0,Risk,2
+TOPUK.YR.-1.5 (4).jpg,0,Risk,2
+TOPUK.YR.-1.5 (5).jpg,0,Risk,2
+TOPUK.YR.-1.5 (6).jpg,0,Risk,2
+TOPUK.YR.-1.5 (7).jpg,0,Risk,2
+TOPUK.YR.-1.5 (8).jpg,0,Risk,2
+TOPUK.YR.-1.5 (9).jpg,0,Risk,2
+TOPUK.YR.-1.5.jpg,0,Risk,2
+TOPUK.YR.-1.6 (1).jpg,0,Risk,2
+TOPUK.YR.-1.6 (10).jpg,0,Risk,2
+TOPUK.YR.-1.6 (11).jpg,0,Risk,2
+TOPUK.YR.-1.6 (12).jpg,0,Risk,2
+TOPUK.YR.-1.6 (2).jpg,0,Risk,2
+TOPUK.YR.-1.6 (3).jpg,0,Risk,2
+TOPUK.YR.-1.6 (4).jpg,0,Risk,2
+TOPUK.YR.-1.6 (5).jpg,0,Risk,2
+TOPUK.YR.-1.6 (6).jpg,0,Risk,2
+TOPUK.YR.-1.6 (7).jpg,0,Risk,2
+TOPUK.YR.-1.6 (8).jpg,0,Risk,2
+TOPUK.YR.-1.6 (9).jpg,0,Risk,2
+TOPUK.YR.-1.6.jpg,0,Risk,2
+TOPUK.YR.-1.7 (1).jpg,0,Risk,2
+TOPUK.YR.-1.7 (2).jpg,0,Risk,2
+TOPUK.YR.-1.7 (3).jpg,0,Risk,2
+TOPUK.YR.-1.7 (4).jpg,0,Risk,2
+TOPUK.YR.-1.7 (5).jpg,0,Risk,2
+TOPUK.YR.-1.7 (6).jpg,1,Evre,evre
+TOPUK.YR.-1.7 (7).jpg,0,Risk,2
+TOPUK.YR.-1.7.jpg,0,Risk,2
+TOPUK.YR.-1.8 (1).jpg,0,Risk,2
+TOPUK.YR.-1.8 (2).jpg,0,Risk,2
+TOPUK.YR.-1.8 (3).jpg,0,Risk,2
+TOPUK.YR.-1.8 (4).jpg,0,Risk,2
+TOPUK.YR.-1.8 (5).jpg,0,Risk,2
+TOPUK.YR.-1.8 (6).jpg,0,Risk,2
+TOPUK.YR.-1.8 (7).jpg,0,Risk,2
+TOPUK.YR.-1.8.jpg,1,Evre,evre
+TOPUK.YR.-1.9 (1).jpg,0,Risk,2
+TOPUK.YR.-1.9 (2).jpg,0,Risk,2
+TOPUK.YR.-1.9 (3).jpg,0,Risk,2
+TOPUK.YR.-1.9 (4).jpg,0,Risk,2
+TOPUK.YR.-1.9 (5).jpg,0,Risk,2
+TOPUK.YR.-1.9 (6).jpg,0,Risk,2
+TOPUK.YR.-1.9 (7).jpg,0,Risk,2
+TOPUK.YR.-1.9.jpg,0,Risk,2
+TOPUK.YR.-1.jpg,0,Risk,2
+TOPUK.YR.-2 (1).jpg,0,Risk,2
+TOPUK.YR.-2 (2).jpg,1,Evre,evre
+TOPUK.YR.-2.0 (2).jpg,0,Risk,2
+TOPUK.YR.-2.0.jpeg,0,Risk,2
+TOPUK.YR.-2.0.jpg,0,Risk,2
+TOPUK.YR.-2.jpg,0,Risk,2
+02.05.2025..TOPUK.ÇYR.-2.1.jpg,0,Risk,2
+02.05.2025..TOPUK.ÇYR.-2.jpg,0,Risk,2
+"113.03.2025.TOPUK.ÇYR.-2,6.jpg",0,Risk,2
+"13.03.2025.TOPUK.ÇYR.-2,6.jpg",0,Risk,2
+"13.03.2025.TPUK.ÇYR.-3,2.jpg",0,Risk,2
+1TOPUK.ÇYR.-2.3.jpg,0,Risk,2
+1TOPUK.ÇYR.-2.4.jpg,0,Risk,2
+1TOPUK.ÇYR.-2.5.jpg,0,Risk,2
+1TOPUK.ÇYR.-2.9.jpg,1,Evre,evre
+22.04.2025.GLUTEAL.ÇYR.-2.1.jpg,1,Evre,evre
+22.04.2025.TOPUK.ÇYR.-2.2.jpg,0,Risk,2
+22.04.2025.TOPUK.ÇYR.-2.7.jpg,0,Risk,2
+22.04.2025.TOPUK.ÇYR.-2.9.jpg,0,Risk,2
+22.04.2025.TOPUK.ÇYR.-4.6.jpg,0,Risk,2
+DİRSEK.ÇYR.-2.1.jpg,1,Evre,evre
+DİRSEK.ÇYR.-2.2.jpg,1,Evre,evre
+DİRSEK.ÇYR.-2.3.jpg,0,Risk,2
+DİRSEK.ÇYR.-2.6.jpg,1,Evre,evre
+DİRSEK.ÇYR.-5.4.jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.1 (10).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.1 (2).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.1 (3).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.1 (4).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.1 (5).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.1 (6).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.1 (7).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.1 (8).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.1 (9).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.1.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.2 (2).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.2 (3).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.2 (4).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.2 (5).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.2.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.3 (2).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.3 (3).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.3 (4).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.3 (5).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.3.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.4 (2).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.4 (3).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.4 (4).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.4 (5).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.4.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.5 (2).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.5 (3).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.5.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.6 (2).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.6 (3).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.6 (4).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.6.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.7 (2).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.7 (3).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.7 (4).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.7.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.8 (2).jpg,0,Risk,2
+GLUTEAL.ÇYR.-2.8 (3).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.8 (4).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.8.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-2.9.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.0 (2).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.0 (3).jpg,0,Risk,2
+GLUTEAL.ÇYR.-3.0 (4).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.0 (5).jpg,0,Risk,2
+GLUTEAL.ÇYR.-3.0 (6).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.0.jpg,0,Risk,2
+GLUTEAL.ÇYR.-3.1 (2).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.1 (3).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.1 (4).jpg,0,Risk,2
+GLUTEAL.ÇYR.-3.1 (5).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.1.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.2 (2).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.2.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.3 (2).jpg,0,Risk,2
+GLUTEAL.ÇYR.-3.3 (3).jpg,0,Risk,2
+GLUTEAL.ÇYR.-3.3.jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.4.jpg,0,Risk,2
+GLUTEAL.ÇYR.-3.5 (2).jpg,1,Evre,evre
+GLUTEAL.ÇYR.-3.5.jpg,0,Risk,2
+GLUTEAL.ÇYR.-4.1.jpg,1,Evre,evre
+GLYTEAL.ÇYR.-3.3.jpg,0,Risk,2
+LATERAL MALLEOL.ÇYR.-2.4.jpg,0,Risk,2
+SAKRUM.ÇYR.-2.1 (2).jpg,0,Risk,2
+SAKRUM.ÇYR.-2.1.jpg,1,Evre,evre
+SAKRUM.ÇYR.-2.2 (1).jpg,1,Evre,evre
+SAKRUM.ÇYR.-2.2.jpg,0,Risk,2
+SAKRUM.ÇYR.-2.4.jpg,1,Evre,evre
+SAKRUM.ÇYR.-2.5.jpg,1,Evre,evre
+SAKRUM.ÇYR.-2.7.jpg,1,Evre,evre
+SAKRUM.ÇYR.-3.0.jpg,1,Evre,evre
+SAKRUM.ÇYR.-3.1 (2).jpg,1,Evre,evre
+SAKRUM.ÇYR.-3.1.jpg,1,Evre,evre
+SAKRUM.ÇYR.-3.5.jpg,0,Risk,2
+SAKRUM.ÇYR.-3.8.jpg,1,Evre,evre
+TOPUK. ÇYR. -2.3.jpg,0,Risk,2
+TOPUK. ÇYR. -4.2.jpg,0,Risk,2
+TOPUK.ÇYR.-2.1 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-2.1 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-2.1 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-2.1 (4).jpg,0,Risk,2
+TOPUK.ÇYR.-2.1 (5).jpg,0,Risk,2
+TOPUK.ÇYR.-2.1 (6).jpg,0,Risk,2
+TOPUK.ÇYR.-2.1 (7).jpg,1,Evre,evre
+TOPUK.ÇYR.-2.1 (8).jpg,0,Risk,2
+TOPUK.ÇYR.-2.1.jpeg,0,Risk,2
+TOPUK.ÇYR.-2.1.jpg,0,Risk,2
+TOPUK.ÇYR.-2.2 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-2.2 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-2.2 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-2.2 (4).jpg,0,Risk,2
+TOPUK.ÇYR.-2.2.jpeg,0,Risk,2
+TOPUK.ÇYR.-2.2.jpg,0,Risk,2
+TOPUK.ÇYR.-2.3 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-2.3 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-2.3 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-2.3 (4).jpg,0,Risk,2
+TOPUK.ÇYR.-2.3 (5).jpg,0,Risk,2
+TOPUK.ÇYR.-2.3 (6).jpg,1,Evre,evre
+TOPUK.ÇYR.-2.3.jpeg,0,Risk,2
+TOPUK.ÇYR.-2.3.jpg,0,Risk,2
+TOPUK.ÇYR.-2.4 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-2.4 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-2.4 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-2.4 (4).jpg,0,Risk,2
+TOPUK.ÇYR.-2.4.jpg,0,Risk,2
+TOPUK.ÇYR.-2.5 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-2.5 (10).jpg,1,Evre,evre
+TOPUK.ÇYR.-2.5 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-2.5 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-2.5 (4).jpg,1,Evre,evre
+TOPUK.ÇYR.-2.5 (5).jpg,1,Evre,evre
+TOPUK.ÇYR.-2.5 (6).jpg,0,Risk,2
+TOPUK.ÇYR.-2.5 (7).jpg,0,Risk,2
+TOPUK.ÇYR.-2.5 (8).jpg,0,Risk,2
+TOPUK.ÇYR.-2.5 (9).jpg,0,Risk,2
+TOPUK.ÇYR.-2.5.jpeg,0,Risk,2
+TOPUK.ÇYR.-2.5.jpg,0,Risk,2
+TOPUK.ÇYR.-2.6 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-2.6 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-2.6 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-2.6 (4).jpg,0,Risk,2
+TOPUK.ÇYR.-2.6 (5).jpg,1,Evre,evre
+TOPUK.ÇYR.-2.6.jpeg,0,Risk,2
+TOPUK.ÇYR.-2.6.jpg,0,Risk,2
+TOPUK.ÇYR.-2.7 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-2.7 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-2.7.jpg,0,Risk,2
+TOPUK.ÇYR.-2.8 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-2.8 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-2.8 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-2.8 (4).jpg,0,Risk,2
+TOPUK.ÇYR.-2.8 (5).jpg,0,Risk,2
+TOPUK.ÇYR.-2.8 (6).jpg,0,Risk,2
+TOPUK.ÇYR.-2.8.jpg,0,Risk,2
+TOPUK.ÇYR.-2.9 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-2.9 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-2.9 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-2.9 (4).jpg,0,Risk,2
+TOPUK.ÇYR.-2.9.jpg,0,Risk,2
+TOPUK.ÇYR.-3 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-3 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-3 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-3.0 (2).jpg,1,Evre,evre
+TOPUK.ÇYR.-3.0 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-3.0.jpeg,0,Risk,2
+TOPUK.ÇYR.-3.0.jpg,0,Risk,2
+TOPUK.ÇYR.-3.1.jpeg,0,Risk,2
+TOPUK.ÇYR.-3.2 (2).jpeg,0,Risk,2
+TOPUK.ÇYR.-3.2.jpeg,0,Risk,2
+TOPUK.ÇYR.-3.2.jpg,0,Risk,2
+TOPUK.ÇYR.-3.3.jpg,0,Risk,2
+TOPUK.ÇYR.-3.4 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-3.4 (2).jpg,1,Evre,evre
+TOPUK.ÇYR.-3.4.jpg,0,Risk,2
+TOPUK.ÇYR.-3.5 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-3.5 (2).jpg,0,Risk,2
+TOPUK.ÇYR.-3.5 (3).jpg,0,Risk,2
+TOPUK.ÇYR.-3.5 (4).jpg,1,Evre,evre
+TOPUK.ÇYR.-3.5.jpg,0,Risk,2
+TOPUK.ÇYR.-3.6 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-3.6.jpg,0,Risk,2
+TOPUK.ÇYR.-3.7 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-3.7.jpg,0,Risk,2
+TOPUK.ÇYR.-3.8.jpg,0,Risk,2
+TOPUK.ÇYR.-3.9.jpg,0,Risk,2
+TOPUK.ÇYR.-3.jpg,0,Risk,2
+TOPUK.ÇYR.-4.1.jpg,0,Risk,2
+TOPUK.ÇYR.-4.3.jpg,0,Risk,2
+TOPUK.ÇYR.-4.9 (1).jpg,0,Risk,2
+TOPUK.ÇYR.-4.9.jpg,0,Risk,2
+TOPUK.ÇYR.-4.jpg,0,Risk,2
+TOPUK.ÇYR.-5.2.jpg,0,Risk,2
+TOPUKÇYR.-2.3.jpg,0,Risk,2
