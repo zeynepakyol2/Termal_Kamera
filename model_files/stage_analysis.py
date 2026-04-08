@@ -1,68 +1,53 @@
-"""
-BASINÇ YARASI RİSK SINIFLANDIRMA SİSTEMİ - OPTİMİZE EDİLMİŞ SÜRÜM
-Termal görüntülerden basınç yarası risk seviyelerini sınıflandıran gelişmiş CNN modeli
-
-Ana İyileştirmeler:
-- Geliştirilmiş model mimarisi
-- Optimize edilmiş hiperparametreler
-- Termal görüntülere özel veri artırma
-- Detaylı hata analizi ve görselleştirme
-- Kararlı eğitim için regularizasyon teknikleri
-"""
-
 # -------------------- KÜTÜPHANELER --------------------
 import os
+from collections import Counter
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import cv2
+
 from sklearn.model_selection import train_test_split
 from sklearn.utils.class_weight import compute_class_weight
 from sklearn.metrics import classification_report, confusion_matrix
+
 import tensorflow as tf
 from tensorflow.keras import layers, models, callbacks
 from tensorflow.keras.models import load_model
 
 # -------------------- YAPILANDIRMA --------------------
-IMG_SIZE = (224, 224)        # Model giriş boyutu
-BATCH_SIZE = 32              # Veri işleme boyutu
-INITIAL_EPOCHS = 150         # Maksimum eğitim iterasyonu
-LEARNING_RATE = 0.0001       # Başlangıç öğrenme oranı
-MIN_DELTA = 0.00001          # Erken durdurma hassasiyeti
-PATIENCE = 30                # Erken durdurma sabrı
+IMG_SIZE = (224, 224)
+BATCH_SIZE = 16
+INITIAL_EPOCHS = 80
+LEARNING_RATE = 1e-4
+MIN_DELTA = 1e-5
+PATIENCE = 15
+
+RESULTS_DIR = "analysis_results"
+os.makedirs(RESULTS_DIR, exist_ok=True)
 
 # -------------------- VERİ YÜKLEME --------------------
-
-
-
-
 def load_and_preprocess_data(data_dir, classes):
-    """
-    Termal görüntüleri yükler ve normalizasyon uygular
-
-    Args:
-        data_dir (str): Veri klasörü yolu
-        classes (list): Sınıf etiketleri
-
-    Returns:
-        tuple: (images, labels, filenames)
-    """
     images = []
     labels = []
     filenames = []
 
     for class_idx, class_name in enumerate(classes):
         class_path = os.path.join(data_dir, class_name)
+
+        if not os.path.exists(class_path):
+            print(f"UYARI: Klasör bulunamadı -> {class_path}")
+            continue
+
         print(f"{class_name} yükleniyor...")
 
         for img_file in os.listdir(class_path):
+            img_path = os.path.join(class_path, img_file)
+
             try:
-                # Görüntüyü gri tonlamalı olarak yükle
-                img_path = os.path.join(class_path, img_file)
                 img = tf.keras.preprocessing.image.load_img(
                     img_path,
-                    color_mode='rgb',  # Renkli görüntüleri yüklemek için değiştirildi
+                    color_mode="rgb",
                     target_size=IMG_SIZE
                 )
 
@@ -74,388 +59,254 @@ def load_and_preprocess_data(data_dir, classes):
                 filenames.append(img_file)
 
             except Exception as e:
-                print(f"Hata: {img_file} yüklenemedi - {str(e)}")
+                print(f"Hata: {img_file} yüklenemedi -> {e}")
 
-    return np.array(images), np.array(labels), filenames
+    return np.array(images), np.array(labels), np.array(filenames)
 
-# -------------------- MODEL MİMARİSİ --------------------
-
-
+# -------------------- MODEL --------------------
 def create_advanced_model(input_shape, num_classes):
-    """
-    Optimize edilmiş CNN modelini oluşturur
+    # Google'ın milyonlarca resimle eğitilmiş MobileNetV2 modelini indiriyoruz
+    # include_top=False diyerek beynin sadece "görme" kısmını alıyoruz, sınıflandırma kısmını atıyoruz
+    base_model = tf.keras.applications.MobileNetV2(
+        input_shape=input_shape,
+        include_top=False,
+        weights='imagenet'
+    )
+    
+    # Önceden eğitilmiş bu devasa beynin ağırlıklarını donduruyoruz ki bozulmasın
+    base_model.trainable = False 
 
-    Mimari Özellikleri:
-    - 3 Konvolüsyon Bloğu
-    - Global Average Pooling
-    - Gelişmiş Regularizasyon
-    - Entegre Veri Artırma
-
-    Args:
-        input_shape (tuple): Giriş görüntü boyutu
-        num_classes (int): Sınıf sayısı
-
-    Returns:
-        tf.keras.Model: Derlenmiş model
-    """
-    # Giriş katmanı ve veri artırma
+    # Kendi katmanlarımızı ekliyoruz
     inputs = layers.Input(shape=input_shape)
-
-   # Entegre veri artırma (Sadece eğitimde aktif)
-    
-    
     x = layers.RandomFlip("horizontal")(inputs)
-    x = layers.RandomRotation(0.03)(x)
-
-   
-  
+    x = layers.RandomRotation(0.1)(x)
     
-    
-    
-    # 1. Konvolüsyon Bloğu
-    x = layers.Conv2D(32, 3, padding='same', activation='relu')(x)
-    x = layers.BatchNormalization()(x) #Feature maplerde normalizasyon
-    x = layers.MaxPooling2D(2)(x)
-    x = layers.Dropout(0.1)(x)
-
-    # 2. Konvolüsyon Bloğu
-    x = layers.Conv2D(64, 3, padding='same', activation='relu')(x)
-    x = layers.BatchNormalization()(x)
-    x = layers.MaxPooling2D(2)(x)
+    x = base_model(x, training=False)
+    x = layers.GlobalAveragePooling2D()(x)
     x = layers.Dropout(0.2)(x)
-
-    # 3. Konvolüsyon Bloğu
-    x = layers.Conv2D(128, 3, padding='same', activation='relu')(x)
-    x = layers.GlobalAveragePooling2D()(x)  # Parametre optimizasyonu
-    x = layers.Dropout(0.3)(x)
-
     
-    # Çıkış Katmanı
-    outputs = layers.Dense(num_classes, activation='softmax')(x)
+    # 6 sınıflı kendi yara çıktımızı bağlıyoruz
+    outputs = layers.Dense(num_classes, activation="softmax")(x)
 
-    # Modeli Derle
     model = models.Model(inputs, outputs)
-
-    optimizer = tf.keras.optimizers.Adam(
-        learning_rate=LEARNING_RATE,
-        clipnorm=1.0  # Gradyan patlamalarını önle
-    )
-
+    
     model.compile(
-        optimizer=optimizer,
-        loss='sparse_categorical_crossentropy',
-        metrics=['accuracy']
+        optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3),
+        loss="sparse_categorical_crossentropy",
+        metrics=["accuracy"]
     )
-
+    
     return model
-
-#-------------------- CALLBACK'LER --------------------
-
-
+# -------------------- CALLBACK --------------------
 def get_callbacks(model_name):
-    """
-    Eğitim sürecini yöneten callback'leri oluşturur
-
-    Returns:
-        list: Callback listesi
-    """
     return [
-        # Erken Durdurma: Validation loss'ta iyileşme olmazsa dur
         callbacks.EarlyStopping(
-            monitor='val_loss',
+            monitor="val_loss",
             patience=PATIENCE,
             min_delta=MIN_DELTA,
             restore_best_weights=True,
             verbose=1
         ),
-
-        # Öğrenme Oranı Optimizasyonu
         callbacks.ReduceLROnPlateau(
-            monitor='val_loss',
+            monitor="val_loss",
             factor=0.5,
-            patience=10,
+            patience=8,
             min_lr=1e-6,
             verbose=1
         ),
-
-        # En iyi modeli kaydet
         callbacks.ModelCheckpoint(
-            f'{model_name}_best.h5',
+            f"{model_name}_best.h5",
             save_best_only=True,
-            monitor='val_loss',
-            mode='min',
+            monitor="val_loss",
+            mode="min",
             verbose=1
         ),
-
-        # Eğitim loglarını kaydet
-        callbacks.CSVLogger(f'{model_name}_training_log.csv')
+        callbacks.CSVLogger(f"{model_name}_training_log.csv")
     ]
 
 # -------------------- GÖRSELLEŞTİRME --------------------
-
-
-def visualize_results(history, y_true, y_pred, CLASSES):
-    """
-    Eğitim sonuçlarını ve performans metriklerini görselleştirir
-
-    Args:
-        history: Eğitim geçmişi
-        y_true: Gerçek etiketler
-        y_pred: Tahmin edilen etiketler
-        classes: Sınıf isimleri
-    """
-    # Accuracy/Loss Grafikleri
+def visualize_results(history, y_true, y_pred, classes):
+    # Accuracy / Loss
     plt.figure(figsize=(14, 5))
 
     plt.subplot(1, 2, 1)
-    plt.plot(history.history['accuracy'], label='Eğitim')
-    plt.plot(history.history['val_accuracy'], label='Doğrulama')
-    plt.title('Model Doğruluğu')
-    plt.xlabel('Epok')
-    plt.ylabel('Doğruluk')
+    plt.plot(history.history["accuracy"], label="Eğitim")
+    plt.plot(history.history["val_accuracy"], label="Doğrulama")
+    plt.title("Model Doğruluğu")
+    plt.xlabel("Epok")
+    plt.ylabel("Doğruluk")
     plt.legend()
 
     plt.subplot(1, 2, 2)
-    plt.plot(history.history['loss'], label='Eğitim')
-    plt.plot(history.history['val_loss'], label='Doğrulama')
-    plt.title('Model Kaybı')
-    plt.xlabel('Epok')
-    plt.ylabel('Kayıp')
+    plt.plot(history.history["loss"], label="Eğitim")
+    plt.plot(history.history["val_loss"], label="Doğrulama")
+    plt.title("Model Kaybı")
+    plt.xlabel("Epok")
+    plt.ylabel("Kayıp")
     plt.legend()
 
     plt.tight_layout()
-    plt.show()
+    acc_loss_path = os.path.join(RESULTS_DIR, "training_curves.png")
+    plt.savefig(acc_loss_path, bbox_inches="tight")
+    plt.close()
 
-    cm = confusion_matrix(y_true, y_pred, normalize='true')*100
+    # Confusion matrix (%)
+    cm = confusion_matrix(y_true, y_pred, normalize="true") * 100
 
-    plt.figure(figsize=(8, 6))
-    sns.heatmap(cm, annot=True, fmt=".2f", cmap="Blues", xticklabels=CLASSES, yticklabels=CLASSES)
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(
+        cm,
+        annot=True,
+        fmt=".2f",
+        cmap="Blues",
+        xticklabels=classes,
+        yticklabels=classes
+    )
 
     plt.title("Tahmin Karmaşıklık Matrisi (%)")
     plt.xlabel("Tahmin")
     plt.ylabel("Gerçek")
 
-    # PNG olarak kaydet
-    output_path = "../analysis_results/confusion_matrix_evre1.png"
-    plt.savefig(output_path, bbox_inches="tight")
-    plt.show()
+    cm_path = os.path.join(RESULTS_DIR, "confusion_matrix.png")
+    plt.savefig(cm_path, bbox_inches="tight")
+    plt.close()
 
-# -------------------- TENSORFLOW LITE DÖNÜŞÜMÜ --------------------
+    print(f"Eğitim grafiği kaydedildi: {acc_loss_path}")
+    print(f"Karmaşıklık matrisi kaydedildi: {cm_path}")
 
-
-def convert_to_tflite(model, model_name):
-    """
-    TensorFlow modelini Android için TFLite formatına dönüştürür
-
-    Args:
-        model: Eğitilmiş TensorFlow modeli (bu parametreyi kullanmayacağız)
-        model_name (str): Model dosyası için temel isim
-
-    Returns:
-        str: Oluşturulan TFLite dosyasının yolu
-    """
+# -------------------- TFLITE --------------------
+def convert_to_tflite(model_name):
     print("\nModel TensorFlow Lite formatına dönüştürülüyor...")
 
-    # H5 dosyasını kontrol et
     h5_path = f"{model_name}_final.h5"
+    tflite_filename = f"{model_name}.tflite"
 
     if not os.path.exists(h5_path):
-        print(f"HATA: {h5_path} dosyası bulunamadı!")
-        print("İpucu: Önce modeli eğitip kaydetmelisiniz.")
+        print(f"HATA: {h5_path} bulunamadı.")
         return None
 
     try:
-        # Dosyadan doğrudan TFLite dönüşümü yapmayı dene
-        print(f"'{h5_path}' dosyasından TFLite dönüşümü yapılıyor...")
+        model = load_model(h5_path)
+        converter = tf.lite.TFLiteConverter.from_keras_model(model)
+        converter.optimizations = [tf.lite.Optimize.DEFAULT]
+        tflite_model = converter.convert()
 
-        # Manuel olarak TFLite dönüşümü yapalım
-        import subprocess
-        import sys
+        with open(tflite_filename, "wb") as f:
+            f.write(tflite_model)
 
-        tflite_filename = f"{model_name}.tflite"
-
-        # Python script dosyası oluştur
-        converter_script = "convert_to_tflite.py"
-        with open(converter_script, "w") as f:
-            f.write("""
-import sys
-import tensorflow as tf
-
-# H5 dosyasını yükle
-h5_path = sys.argv[1]
-tflite_path = sys.argv[2]
-
-# Modeli yükle
-model = tf.keras.models.load_model(h5_path)
-
-# TFLite dönüştürücüsünü oluştur
-converter = tf.lite.TFLiteConverter.from_keras_model(model)
-
-# Optimizasyon seçenekleri
-converter.optimizations = [tf.lite.Optimize.DEFAULT]
-
-# Dönüşümü gerçekleştir
-tflite_model = converter.convert()
-
-# TFLite modelini dosyaya kaydet
-with open(tflite_path, 'wb') as f:
-    f.write(tflite_model)
-
-print(f"TFLite modeli başarıyla oluşturuldu: {tflite_path}")
-print(f"Model boyutu: {len(tflite_model) / 1024:.2f} KB")
-""")
-
-        # Script'i ayrı bir Python işleminde çalıştır
-        # Python 3.12 yerine kullanılabilir başka bir Python sürümünüz varsa, onu kullanın
-        python_cmd = sys.executable  # Mevcut Python yorumlayıcısı
-        cmd = [python_cmd, converter_script, h5_path, tflite_filename]
-
-        print(f"Dönüşüm komutu çalıştırılıyor: {' '.join(cmd)}")
-        result = subprocess.run(cmd, capture_output=True, text=True)
-
-        if result.returncode == 0:
-            print(result.stdout)
-            print(f"Dönüşüm başarılı: {tflite_filename}")
-
-            # Geçici script dosyasını temizle
-            if os.path.exists(converter_script):
-                os.remove(converter_script)
-
-            return tflite_filename
-        else:
-            print(f"Dönüşüm başarısız. Hata: {result.stderr}")
-
-            # Alternatif yöntem önerisi
-            print("\nAlternatif çözüm önerileri:")
-            print("1. Python 3.8 veya 3.9 sürümü kullanarak dönüşümü tekrar deneyin.")
-            print(
-                "2. TensorFlow'u pip ile güncellemeyi deneyin: pip install tensorflow==2.10.0")
-            print(
-                "3. Modeli daha düşük bir Python sürümünde (3.8/3.9) eğitip tekrar dönüştürün.")
-
-            return None
+        print(f"TFLite modeli oluşturuldu: {tflite_filename}")
+        print(f"Model boyutu: {len(tflite_model) / 1024:.2f} KB")
+        return tflite_filename
 
     except Exception as e:
-        print(f"TFLite dönüşümünde beklenmeyen hata: {str(e)}")
-        print("\nPython 3.12 ile TensorFlow uyumsuzluğu yaşanıyor olabilir.")
-        print("Önerilen çözümler:")
-        print("1. Python 3.8 veya 3.9 sürümü kullanarak dönüşümü tekrar deneyin.")
-        print(
-            "2. TensorFlow'u pip ile güncellemeyi deneyin: pip install tensorflow==2.10.0")
+        print(f"TFLite dönüşümünde hata: {e}")
         return None
 
-# -------------------- ANA İŞLEM --------------------
-
-
+# -------------------- ANA AKIŞ --------------------
 def main():
-    # Yapılandırma
-    DATA_DIR = "Basınç Yarası Evreleri"
-    CLASSES = ["Derin Doku Hasarı","Evre 1","Evre 2","Evre 3-4","Evrelendirilemeyen"]
-    MODEL_NAME = "Basınç_yarası_evreleri_1"
+    DATA_DIR = "wound_stage_dataset"
+    CLASSES = ["Derin Doku Hasarı", "Evre 1", "Evre 2", "Evre 3", "Evre 4", "Evrelendirilemeyen"]
+    MODEL_NAME = "wound_stage"
 
-
-
-    # 1. Veri Yükleme
+    # 1. Veri yükleme
     print("\n[1/7] Veri yükleniyor...")
     X, y, filenames = load_and_preprocess_data(DATA_DIR, CLASSES)
-    print(f"Toplam örnek sayısı: {len(X)}")
-    print(f"Sınıf dağılımı: {dict(zip(CLASSES, np.bincount(y)))}")
 
-    # 2. Veri Bölme
-    print("\n[2/7] Veri bölünüyor...")
-    X_train, X_val_test, y_train, y_val_test = train_test_split(
-        X, y,
-        test_size=0.3,
-        stratify=y,#sınıfları dengeli böler
-        random_state=42
-    )
-    X_val, X_test, y_val, y_test = train_test_split(
-        X_val_test, y_val_test,
-        test_size=0.5,
-        stratify=y_val_test,
-        random_state=42
-    )
-    print(
-        f"Eğitim: {len(X_train)}, Doğrulama: {len(X_val)}, Test: {len(X_test)}")
+    if len(X) == 0:
+        print("Veri bulunamadı. Program sonlandırıldı.")
+        return
 
-    # 3. Sınıf Ağırlıkları
+    # 2. Veri bölme (GÜNCELLENDİ: %80 Train, %10 Val, %10 Test)
+    print("\n[2/7] Veri 3'e bölünüyor (Train, Val, Test)...")
+    
+    # Önce %80 Eğitim, %20 Geçici (Temp) olarak ayırıyoruz
+    X_train, X_temp, y_train, y_temp, f_train, f_temp = train_test_split(
+        X, y, filenames, test_size=0.20, stratify=y, random_state=42
+    )
+
+    # Sonra o %20'lik Geçici kısmı tam ortadan ikiye bölüyoruz (%10 Val, %10 Test)
+    X_val, X_test, y_val, y_test, f_val, f_test = train_test_split(
+        X_temp, y_temp, f_temp, test_size=0.50, stratify=y_temp, random_state=42
+    )
+
+    print(f"Eğitim (Train): {len(X_train)}")
+    print(f"Doğrulama (Validation): {len(X_val)}")
+    print(f"Test: {len(X_test)}")
+
+    # 3. Sınıf ağırlıkları (Değişmedi)
     print("\n[3/7] Sınıf ağırlıkları hesaplanıyor...")
-    classes = np.unique(y_train)
+    classes_in_train = np.unique(y_train)
     weights = compute_class_weight(
-        class_weight='balanced',
-        classes=classes,
+        class_weight="balanced",
+        classes=classes_in_train,
         y=y_train
     )
-    class_weights = dict(zip(classes, weights))
+    class_weights = dict(zip(classes_in_train, weights))
 
-
-    print("Sınıf Ağırlıkları:", class_weights)
-
-    # #4. Model Oluşturma
+    # 4. Model oluşturma (Değişmedi)
     print("\n[4/7] Model inşa ediliyor...")
     model = create_advanced_model((*IMG_SIZE, 3), len(CLASSES))
-    model.summary()
 
-    # 5. Model Eğitimi
+    # 5. Eğitim (GÜNCELLENDİ: Validation artık X_val üzerinden yapılıyor)
     print("\n[5/7] Model eğitimi başlatılıyor...")
     history = model.fit(
-    X_train, y_train,
-    validation_data=(X_val, y_val),
-    epochs=INITIAL_EPOCHS,
-    batch_size=BATCH_SIZE,
-    class_weight=class_weights,
-    callbacks=get_callbacks(MODEL_NAME),
-    verbose=1
+        X_train,
+        y_train,
+        validation_data=(X_val, y_val), # BURASI GÜNCELLENDİ
+        epochs=INITIAL_EPOCHS,
+        batch_size=BATCH_SIZE,
+        class_weight=class_weights,
+        callbacks=get_callbacks(MODEL_NAME),
+        verbose=1
     )
 
-    # 6. Değerlendirme ve Raporlama
-    print("\n[6/7] Performans değerlendiriliyor...")
-    # En iyi modeli yükle
-    #model = load_model(f'{MODEL_NAME}_best.h5')
-   
-    # Test seti değerlendirme
-    test_loss, test_acc = model.evaluate(X_test, y_test, verbose=0)#tahminlerini y_test ile karşılaştırır
-    print(f"\nTest Doğruluğu: {test_acc:.4f}")
-    print(f"Test Kaybı: {test_loss:.4f}")
+    # En iyi modeli yükle (Değişmedi)
+    best_model_path = f"{MODEL_NAME}_best.h5"
+    if os.path.exists(best_model_path):
+        model = load_model(best_model_path)
 
-    
+    # 6. Değerlendirme (GÜNCELLENDİ: Artık X_test ile dürüst ölçüm yapıyoruz)
+    print("\n[6/7] Performans değerlendiriliyor (Gerçek Test Seti)...")
+    test_loss, test_acc = model.evaluate(X_test, y_test, verbose=0) # BURASI GÜNCELLENDİ
+    print(f"\nGerçek Test Doğruluğu: {test_acc:.4f}")
+    print(f"Gerçek Test Kaybı: {test_loss:.4f}")
 
-    y_pred = model.predict(X_test)#tahminleri yazdırır
-    y_pred_classes = np.argmax(y_pred, axis=1).copy()
+    y_pred = model.predict(X_test)
+    y_pred_classes = np.argmax(y_pred, axis=1)
 
+    print("\nSınıflandırma Raporu (Test Seti):")
+    print(classification_report(y_test, y_pred_classes, target_names=CLASSES, digits=4))
 
+    # CSV Kaydı ve Görselleştirme (X_test ve y_test olarak güncellendi)
+    results_dict = {
+        "Dosya": f_test,
+        "Gerçek": [CLASSES[i] for i in y_test],
+        "Tahmin": [CLASSES[i] for i in y_pred_classes]
+    }
+    for i, class_name in enumerate(CLASSES):
+        safe_name = class_name.replace(" ", "_")
+        results_dict[f"Olasilik_{safe_name}"] = y_pred[:, i]
 
-    # Detaylı Rapor
-    print("\nSınıflandırma Raporu:")
-    print(classification_report(y_test,y_pred_classes, target_names=CLASSES,digits=4))
-
-    # Sonuçları Kaydet
-    results_df = pd.DataFrame({
-        'Dosya': filenames[-len(y_test):],
-        'Gerçek': [CLASSES[i] for i in y_test],
-        'Tahmin': [CLASSES[i] for i in y_pred_classes],
-        'Göreceli_Olasılık': y_pred[:, 0],
-        'Yüksek_Olasılık': y_pred[:, 1],
-        'Çok_Yüksek_Olasılık': y_pred[:, 2]
-    })
-    results_df.to_csv(f'{MODEL_NAME}_predictions.csv', index=False)
-    print("\nTahminler CSV'ye kaydedildi.")
+    results_df = pd.DataFrame(results_dict)
+    csv_path = f"{MODEL_NAME}_predictions.csv"
+    results_df.to_csv(csv_path, index=False, encoding="utf-8-sig")
+    print(f"\nTahminler CSV'ye kaydedildi: {csv_path}")
 
     # Görselleştirme
     visualize_results(history, y_test, y_pred_classes, CLASSES)
 
-    # Modeli Kaydet
-    model.save(f'{MODEL_NAME}_final.h5')
-    print("\nFinal model kaydedildi.")
+    # Final model kaydet
+    final_model_path = f"{MODEL_NAME}_final.h5"
+    model.save(final_model_path)
+    print(f"\nFinal model kaydedildi: {final_model_path}")
 
-    # 7. TensorFlow Lite Dönüşümü
+    # 7. TFLite
     print("\n[7/7] Android için TFLite modeli oluşturuluyor...")
-    tflite_path = convert_to_tflite(model, MODEL_NAME)
+    tflite_path = convert_to_tflite(MODEL_NAME)
     if tflite_path:
         print(f"\nAndroid'de kullanılmaya hazır TFLite modeli: {tflite_path}")
     else:
-        print("\nTFLite dönüşümü başarısız oldu. Manuel olarak dönüştürmeyi deneyin.")
-
+        print("\nTFLite dönüşümü başarısız oldu.")
 
 if __name__ == "__main__":
     main()

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 # CSV dosyasını oku
-df = pd.read_csv("../model_files/Basınç_yarası_evreleri_1_predictions.csv")
+df = pd.read_csv("../model_files/Basinc_yarasi_evreleri_predictions.csv")
 
 # Doğruluk hesapla
 df["Doğru"] = df["Gerçek"] == df["Tahmin"]

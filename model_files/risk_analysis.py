@@ -23,14 +23,17 @@ from sklearn.metrics import classification_report, confusion_matrix
 import tensorflow as tf
 from tensorflow.keras import layers, models, callbacks
 from tensorflow.keras.models import load_model
+from tensorflow.keras.applications import EfficientNetB0
+from tensorflow.keras.layers import Input, GlobalAveragePooling2D, Dropout, Dense
+from tensorflow.keras.models import Model
 
 # -------------------- YAPILANDIRMA --------------------
-IMG_SIZE = (224, 224)        # Model giriş boyutu
-BATCH_SIZE = 32              # Veri işleme boyutu
-INITIAL_EPOCHS = 150         # Maksimum eğitim iterasyonu
-LEARNING_RATE = 0.0001       # Başlangıç öğrenme oranı
+IMG_SIZE = (256, 256)        # Model giriş boyutu
+BATCH_SIZE = 8               # Veri işleme boyutu
+INITIAL_EPOCHS = 40          # Maksimum eğitim iterasyonu
+LEARNING_RATE = 0.00001       # Başlangıç öğrenme oranı
 MIN_DELTA = 0.00001          # Erken durdurma hassasiyeti
-PATIENCE = 30                # Erken durdurma sabrı
+PATIENCE = 12                # Erken durdurma sabrı
 
 # -------------------- VERİ YÜKLEME --------------------
 
@@ -73,7 +76,7 @@ def load_and_preprocess_data(data_dir, classes):
 
                 # # Numpy array'e çevir ve normalizasyon yap
                 # # img_array = tf.keras.preprocessing.image.img_to_array(img)
-                img_array = img_array / 255.0  # [0-1] aralığına normalizasyon
+                img_array = tf.keras.applications.efficientnet.preprocess_input(img_array) # [0-1] aralığına normalizasyon
 
                 # # Kanal boyutunu ekle (224,224,3)
                 # # Renkli görüntüler için kanal boyutu zaten mevcut, bu nedenle ekleme gerekmez
@@ -94,121 +97,122 @@ def load_and_preprocess_data(data_dir, classes):
 
 # -------------------- MODEL MİMARİSİ --------------------
 
+def sparse_focal_loss(gamma=2.0, alpha=0.25):
+    alpha = tf.convert_to_tensor(alpha, dtype=tf.float32)
+    def loss_fn(y_true, y_pred):
+        y_true = tf.cast(y_true, tf.int32)
+        y_true_one_hot = tf.one_hot(tf.squeeze(y_true), depth=tf.shape(y_pred)[-1])
 
-def create_advanced_model(input_shape, num_classes):
-    """
-    Optimize edilmiş CNN modelini oluşturur
+        epsilon = tf.keras.backend.epsilon()
+        y_pred = tf.clip_by_value(y_pred, epsilon, 1.0 - epsilon)
 
-    Mimari Özellikleri:
-    - 3 Konvolüsyon Bloğu
-    - Global Average Pooling
-    - Gelişmiş Regularizasyon
-    - Entegre Veri Artırma
+        cross_entropy = -y_true_one_hot * tf.math.log(y_pred)
+        weight = alpha * tf.pow(1 - y_pred, gamma)
+        loss = weight * cross_entropy
 
-    Args:
-        input_shape (tuple): Giriş görüntü boyutu
-        num_classes (int): Sınıf sayısı
+        return tf.reduce_mean(tf.reduce_sum(loss, axis=-1))
+    return loss_fn
 
-    Returns:
-        tf.keras.Model: Derlenmiş model
-    """
-    # Giriş katmanı ve veri artırma
-    inputs = layers.Input(shape=input_shape)
+FOCAL_ALPHA = [2.0896919, 2.1128857, 2.1081853]
+FOCAL_LOSS = sparse_focal_loss(gamma=2.0, alpha=FOCAL_ALPHA)
 
-    # Entegre veri artırma (sadece eğitimde aktif)
-    x = layers.RandomFlip("horizontal")(inputs)
-    x = layers.RandomContrast(0.1)(x)# Termal kontrast varyasyonu
-    x=  layers.RandomRotation(0.2)(x)
-    x = layers.RandomZoom(0.3)(x)
+# def create_advanced_model(input_shape, num_classes):
+#     """
+#     Optimize edilmiş CNN modelini oluşturur
 
-    # 1. Konvolüsyon Bloğu
-    x = layers.Conv2D(32, 3, padding='same', activation='relu')(x)
-    x = layers.BatchNormalization()(x) #Feature maplerde normalizasyon
-    x = layers.MaxPooling2D(2)(x)
-    x = layers.Dropout(0.2)(x)
+#     Mimari Özellikleri:
+#     - 3 Konvolüsyon Bloğu
+#     - Global Average Pooling
+#     - Gelişmiş Regularizasyon
+#     - Entegre Veri Artırma
 
-    # 2. Konvolüsyon Bloğu
-    x = layers.Conv2D(64, 3, padding='same', activation='relu')(x)
-    x = layers.BatchNormalization()(x)
-    x = layers.MaxPooling2D(2)(x)
-    x = layers.Dropout(0.3)(x)
+#     Args:
+#         input_shape (tuple): Giriş görüntü boyutu
+#         num_classes (int): Sınıf sayısı
 
-    # 3. Konvolüsyon Bloğu
-    x = layers.Conv2D(128, 3, padding='same', activation='relu')(x)
-    x = layers.GlobalAveragePooling2D()(x)  # Parametre optimizasyonu
-    x = layers.Dropout(0.5)(x)
-
-    
-    # Çıkış Katmanı
-    outputs = layers.Dense(num_classes, activation='softmax')(x)
-
-    # Modeli Derle
-    model = models.Model(inputs, outputs)
-
-    optimizer = tf.keras.optimizers.Adam(
-        learning_rate=LEARNING_RATE,
-        clipnorm=1.0  # Gradyan patlamalarını önle
-    )
-
-    model.compile(
-        optimizer=optimizer,
-        loss='sparse_categorical_crossentropy',
-        metrics=['accuracy']
-    )
-
-    return model
-
-
-# import tensorflow as tf
-# from tensorflow.keras.applications import MobileNetV2
-# from tensorflow.keras.layers import GlobalAveragePooling2D, Dense, Dropout
-# from tensorflow.keras.models import Model
-
-# def create_mobilenet_model(input_shape, num_classes):
-
-#     # 1) Veri artırma bloğu (optional ama önerilir)
-#     data_augmentation = tf.keras.Sequential([
-#         layers.RandomFlip("horizontal"),
-#         layers.RandomRotation(0.15),
-#         layers.RandomZoom(0.20),
-#         layers.RandomTranslation(0.2, 0.2),
-#         layers.RandomContrast(0.3)
-#     ])
-
-#     # 2) Manuel input layer EKLİYORUZ
+#     Returns:
+#         tf.keras.Model: Derlenmiş model
+#     """
+#     # Giriş katmanı ve veri artırma
 #     inputs = layers.Input(shape=input_shape)
 
-#     # 3) Augmentation → Sadece eğitim sırasında aktif
-#     x = data_augmentation(inputs)
+#     x = layers.RandomFlip("horizontal")(inputs)
+#     x = layers.RandomContrast(0.03)(x)
+#     x = layers.RandomRotation(0.02)(x)
+#     x = layers.RandomZoom(0.03)(x)
 
-#     # 4) MobileNet tabanı
-#     base_model = MobileNetV2(
-#         include_top=False,
-#         weights="imagenet",
-#         input_shape=input_shape
+#     # 1. Konvolüsyon Bloğu
+#     x = layers.Conv2D(32, 3, padding='same', activation='relu')(x)
+#     x = layers.BatchNormalization()(x) #Feature maplerde normalizasyon
+#     x = layers.MaxPooling2D(2)(x)
+#     x = layers.Dropout(0.2)(x)
+
+#     # 2. Konvolüsyon Bloğu
+#     x = layers.Conv2D(64, 3, padding='same', activation='relu')(x)
+#     x = layers.BatchNormalization()(x)
+#     x = layers.MaxPooling2D(2)(x)
+#     x = layers.Dropout(0.3)(x)
+
+#     # 3. Konvolüsyon Bloğu
+#     x = layers.Conv2D(128, 3, padding='same', activation='relu')(x)
+#     x = layers.GlobalAveragePooling2D()(x)  # Parametre optimizasyonu
+#     x = layers.Dropout(0.5)(x)
+
+    
+#     # Çıkış Katmanı
+#     outputs = layers.Dense(num_classes, activation='softmax')(x)
+
+#     # Modeli Derle
+#     model = models.Model(inputs, outputs)
+
+#     optimizer = tf.keras.optimizers.Adam(
+#         learning_rate=LEARNING_RATE,
+#         clipnorm=1.0  # Gradyan patlamalarını önle
 #     )
-#     base_model.trainable = False
 
-#     x = base_model(x, training=False)
-
-#     # 5) Classification head
-#     x = GlobalAveragePooling2D()(x)
-#     x = Dense(128, activation='relu',
-#               kernel_regularizer=tf.keras.regularizers.l2(0.001))(x)
-#     x = Dropout(0.4)(x)
-
-#     outputs = Dense(num_classes, activation='softmax')(x)
-
-#     model = Model(inputs, outputs)
-
-#     # 6) İlk eğitim
 #     model.compile(
-#         optimizer=tf.keras.optimizers.Adam(1e-3),
-#         loss="sparse_categorical_crossentropy",
-#         metrics=["accuracy"]
+#     optimizer=optimizer,
+#     loss=FOCAL_LOSS,
+#     metrics=['accuracy']
 #     )
 
 #     return model
+
+
+def create_efficientnet_model(input_shape, num_classes):
+    inputs = Input(shape=input_shape)
+    
+    # Data Augmentation (Biraz daha agresif hale getirdik)
+    x = tf.keras.Sequential([
+        layers.RandomFlip("horizontal_and_vertical"),
+        layers.RandomRotation(0.15),
+        layers.RandomZoom(0.1),
+        layers.RandomContrast(0.15),
+        layers.RandomBrightness(0.1) # Termal görüntülerde parlaklık değişimi önemlidir
+    ])(inputs)
+
+    base_model = EfficientNetB0(
+        include_top=False,
+        weights="imagenet",
+        input_tensor=x
+    )
+
+    # ÖNEMLİ: İlk aşamada donduruyoruz
+    base_model.trainable = False
+
+    x = GlobalAveragePooling2D()(base_model.output)
+    x = Dense(256, activation='relu')(x) # Nöron sayısını artırdık
+    x = Dropout(0.4)(x)
+    outputs = Dense(num_classes, activation='softmax')(x)
+
+    model = Model(inputs, outputs)
+    
+    # İlk aşama için yüksek learning rate (0.001)
+    model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+                  loss=FOCAL_LOSS, metrics=['accuracy'])
+    return model, base_model
+
+
 
 
 #-------------------- CALLBACK'LER --------------------
@@ -221,7 +225,7 @@ def get_callbacks(model_name):
     Returns:
         list: Callback listesi
     """
-    return [
+    return[
         # Erken Durdurma: Validation loss'ta iyileşme olmazsa dur
         callbacks.EarlyStopping(
             monitor='val_loss',
@@ -244,6 +248,7 @@ def get_callbacks(model_name):
         callbacks.ModelCheckpoint(
             f'{model_name}_best.h5',
             save_best_only=True,
+            save_weights_only=False,
             monitor='val_loss',
             mode='min',
             verbose=1
@@ -417,9 +422,9 @@ print(f"Model boyutu: {len(tflite_model) / 1024:.2f} KB")
 
 def main():
     # Yapılandırma
-    DATA_DIR = "Basınç Yarası Riski"
+    DATA_DIR = "wound_risk_dataset"
     CLASSES = ["Goreceli_Risk", "Yuksek_Risk", "Cok_Yuksek_Risk"]
-    MODEL_NAME = "Risk_analizi_model"
+    MODEL_NAME = "wound_risk_model_guncel"
 
 
 
@@ -433,7 +438,7 @@ def main():
     print("\n[2/7] Veri bölünüyor...")
     X_train, X_val_test, y_train, y_val_test = train_test_split(
         X, y,
-        test_size=0.3,
+        test_size=0.2,
         stratify=y,#sınıfları dengeli böler
         random_state=42
     )
@@ -455,9 +460,11 @@ def main():
     #   )
     
     #class_weights = {i: w for i, w in enumerate(class_weights)}
-    class_weights = {0: 1.0,  # Goreceli_Risk
-                     1: 2.8,  # Yuksek_Risk
-                     2: 2.0}  # Cok_Yuksek_Risk
+    class_weights = {
+    0: 1.0,
+    1: 3.5,
+    2: 2.8
+    }
 
     # idx_y = CLASSES.index("Yuksek_Risk")  
     # class_weights[idx_y] *= 1.2    #Yüksek risk ağırlığını artır
@@ -466,25 +473,58 @@ def main():
 
     # #4. Model Oluşturma
     print("\n[4/7] Model inşa ediliyor...")
-    model = create_advanced_model((*IMG_SIZE, 3), len(CLASSES))
+    model, base_model = create_efficientnet_model((*IMG_SIZE, 3), len(CLASSES))
     model.summary()
 
     # 5. Model Eğitimi
     print("\n[5/7] Model eğitimi başlatılıyor...")
-    history = model.fit(
-    X_train, y_train,
-    validation_data=(X_val, y_val),
-    epochs=INITIAL_EPOCHS,
-    batch_size=BATCH_SIZE,
-    class_weight=class_weights,
-    callbacks=get_callbacks(MODEL_NAME),
-    verbose=1
+ # 5. Model Eğitimi (İki Aşamalı Strateji)
+    print("\n[5/7] Aşama 1: Üst katmanlar eğitiliyor (Warm-up)...")
+    # Burada sadece senin eklediğin Dense katmanları eğitilecek, EfficientNet donuk kalacak.
+    model.fit(
+        X_train, y_train,
+        validation_data=(X_val, y_val),
+        epochs=15, # İlk aşama için 15 epok yeterli
+        batch_size=BATCH_SIZE,
+        class_weight=class_weights,
+        callbacks=get_callbacks(MODEL_NAME + "_stage1"), # Stage 1 için ayrı log tutabilirsin
+        verbose=1
     )
+
+    # 6. Aşama: Fine-Tuning (Tüm katmanları açıyoruz)
+    print("\n[6/7] Aşama 2: Fine-tuning başlatılıyor (Tüm katmanlar açıldı)...")
+    
+    # EfficientNet dahil tüm katmanları eğitilebilir yapıyoruz
+    for layer in model.layers:
+        layer.trainable = True
+    
+    # ÇOK ÖNEMLİ: Katmanları açtıktan sonra modeli ÇOK DÜŞÜK bir hızla tekrar derlemelisin
+    model.compile(
+        optimizer=tf.keras.optimizers.Adam(learning_rate=1e-5), # 1e-3'ten 1e-5'e düşürdük
+        loss=FOCAL_LOSS, 
+        metrics=['accuracy']
+    )
+    
+    # Asıl eğitim burada başlıyor
+    history = model.fit(
+        X_train, y_train,
+        validation_data=(X_val, y_val),
+        epochs=25, # Toplamda 40 epok (15+25) yapmış oluyoruz
+        batch_size=BATCH_SIZE,
+        class_weight=class_weights,
+        callbacks=get_callbacks(MODEL_NAME),
+        verbose=1
+    )
+
+    # 7. Değerlendirme ve Raporlama (Bundan sonrası senin kodunla aynı devam ediyor)
+    print("\n[7/7] Performans değerlendiriliyor...")
+    # ... (Geri kalan değerlendirme kodlarını buraya ekle)
 
     # 6. Değerlendirme ve Raporlama
     print("\n[6/7] Performans değerlendiriliyor...")
     # En iyi modeli yükle
-    model = load_model(f'{MODEL_NAME}_best.h5')
+    model, base_model = create_efficientnet_model((*IMG_SIZE, 3), len(CLASSES))
+    model.load_model(f'{MODEL_NAME}_best.h5')
    
     # Test seti değerlendirme
     test_loss, test_acc = model.evaluate(X_test, y_test, verbose=0)#tahminlerini y_test ile karşılaştırır
@@ -543,7 +583,7 @@ def main():
     #                         best_params = (T_Y, T_C,T_G, DELTA)
     #                         best_preds = y_pred_classes.copy()
     # if best_params is None:
-    #     print("⚠ Hiçbir kombinasyon recall ≥ 0.29 şartını sağlamadı.")
+    #     print(" Hiçbir kombinasyon recall ≥ 0.29 şartını sağlamadı.")
     #     return
         
     # print("EN İYİ SONUÇ")

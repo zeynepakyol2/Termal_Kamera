@@ -5,12 +5,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # CSV dosyasını oku
-df = pd.read_csv("../model_files/yara_var_mi_yok_mu1_model_predictions.csv")
+df = pd.read_csv("../model_files/Basinc_yarasi_evreleri_predictions.csv")
 
 y_true = df["Gerçek"]
 y_pred = df["Tahmin"]
 
-labels=["Yara_Var", "Yara_Yok"]
+labels=["Derin Doku Hasarı", "Evre 1", "Evre 2", "Evre 3", "Evre 4", "Evrelendirilemeyen"]
 
 # Karışıklık matrisini hesapla
 cm = confusion_matrix(y_true, y_pred,labels=labels, normalize='true')*100
@@ -24,5 +24,5 @@ plt.ylabel("Gerçek")
 
 print("✅ Karışıklık matrisi başarıyla oluşturuldu.")
 # PNG olarak kaydet
-output_path = "../analysis_results/yara_var_mi_yok_mu1.png"
+output_path = "../analysis_results/confusion_matrix_evreler.png"
 plt.savefig(output_path, bbox_inches="tight")

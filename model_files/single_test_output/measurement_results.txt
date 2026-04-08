@@ -1,0 +1,13 @@
+===== YARA ÖLÇÜM SONUCU =====
+
+Görüntü: test_image.jpg
+Ölçek: 1 pixel = 0.01493 mm
+
+--- SONUÇLAR ---
+Alan (pixel): 80141
+Genişlik (pixel): 279
+Yükseklik (pixel): 337
+
+Alan (mm²): 17.85
+Genişlik (mm): 4.16
+Yükseklik (mm): 5.03

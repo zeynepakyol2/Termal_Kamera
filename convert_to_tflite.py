@@ -3,8 +3,8 @@ import os
 import sys
 
 
-h5_model_path = "model_files/Basınç_yarası_evreleri_1_best.h5"  
-tflite_output_path = "model_files/Basınç_yarası_evreleri_1_converted_model.tflite"
+h5_model_path = "model_files/wound_risk_model_best.h5"  
+tflite_output_path = "model_files/wound_risk_model.tflite"
 
 # Klasör yoksa oluştur
 os.makedirs(os.path.dirname(tflite_output_path), exist_ok=True)

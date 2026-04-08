@@ -37,13 +37,13 @@ def main():
 
     IMG_SIZE = (224, 224)
     wound_model=load_model("yara_var_mi_yok_mu1_model_best.h5")
-    risk_model=load_model("Risk_analizi_model_best.h5")
-    stage_model=load_model("Basınç_yarası_evreleri_1_best.h5")
+    risk_model=load_model("wound_risk_model_best.h5")
+    stage_model=load_model("wound_stage_best.h5")
     
-    classes1=["Derin Doku Hasarı","Evre 1","Evre 2","Evre 3-4","Evrelendirilemeyen"]
+    classes1=["Derin Doku Hasarı","Evre 1","Evre 2","Evre 3","Evre 4","Evrelendirilemeyen"]
     classes2=["Goreceli_Risk", "Yuksek_Risk", "Cok_Yuksek_Risk"]
     threshold=0.50
-    img="yara_var_evre_3.jpg"
+    img="001.21.GLUTEAL.EVRE1.-0,5.jpeg"
 
     wound_img=load_and_preprocess_wound(img)
     pred=wound_model.predict(wound_img)[0]

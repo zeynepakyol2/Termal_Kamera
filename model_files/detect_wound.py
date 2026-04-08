@@ -64,7 +64,7 @@ def load_and_preprocess_data(data_dir, classes):
 
                     
                     img_array = tf.keras.preprocessing.image.img_to_array(img).astype("float32")
-                    img_array /= 255.0  
+                    img_array = tf.keras.applications.mobilenet_v2.preprocess_input(img_array)
                     # Listeye ekle
                     images.append(img_array)
                     labels.append(class_idx)
@@ -148,35 +148,29 @@ from tensorflow.keras.layers import GlobalAveragePooling2D, Dense, Dropout
 from tensorflow.keras.models import Model
 
 def create_mobilenet_model(input_shape, num_classes):
-    # Pre-trained MobileNetV2 (ImageNet), classification katmanı yok
-    base_model = MobileNetV2(
-        weights='imagenet',
-        include_top=False,
-        input_shape=input_shape
-    )
+    # Veri Artırma Katmanları
+    data_augmentation = tf.keras.Sequential([
+        layers.RandomFlip("horizontal_and_vertical"),
+        layers.RandomRotation(0.2),
+        layers.RandomZoom(0.1),
+        layers.RandomBrightness(0.1)
+    ])
 
-    # İlk etapta feature extractor katmanlarını dondur
-    base_model.trainable = False
+    base_model = MobileNetV2(weights='imagenet', include_top=False, input_shape=input_shape)
+    base_model.trainable = False # İlk aşamada donduruyoruz
 
-    # Özellik çıkarıcıdan gelen çıktıyı flatten et
-    x = GlobalAveragePooling2D()(base_model.output)
-    x = Dense(128, activation='relu')(x)
-    x = Dropout(0.3)(x)
-
-    # İki sınıf için final softmax
+    inputs = layers.Input(shape=input_shape)
+    x = data_augmentation(inputs)
+    x = base_model(x, training=False)
+    x = GlobalAveragePooling2D()(x)
+    x = Dense(256, activation='relu')(x) # Kapasiteyi artırdık
+    x = Dropout(0.4)(x)
     output = Dense(num_classes, activation='softmax')(x)
 
-    model = Model(inputs=base_model.input, outputs=output)
-
-    # Derleme
-    model.compile(
-        optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
-        loss='sparse_categorical_crossentropy',
-        metrics=['accuracy']
-    )
-
-    return model
-
+    model = Model(inputs, output)
+    model.compile(optimizer=tf.keras.optimizers.Adam(1e-3),
+                  loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+    return model, base_model # base_model'i de döndürüyoruz ki sonra açabilelim
 
 #-------------------- CALLBACK'LER --------------------
 
@@ -379,9 +373,9 @@ print(f"Model boyutu: {len(tflite_model) / 1024:.2f} KB")
 
 def main():
     # Yapılandırma
-    DATA_DIR = "Termal_Dataset"
+    DATA_DIR = "wound_detection_dataset"
     CLASSES = ["Yara_Var", "Yara_Yok"]
-    MODEL_NAME = "yara_var_mi_yok_mu1_model"
+    MODEL_NAME = "wound_detection_guncel_model"
 
 
     # import os
@@ -498,22 +492,27 @@ def main():
 
     print("Sınıf Ağırlıkları:", class_weights)
 
-    # 4. Model Oluşturma
-    print("\n[4/7] Model inşa ediliyor...")
-    model = create_mobilenet_model((*IMG_SIZE, 3), len(CLASSES))
-    model.summary()
+   # 4. Model Oluşturma
+    model, base_model = create_mobilenet_model((*IMG_SIZE, 3), len(CLASSES))
 
-    # 5. Model Eğitimi
-    print("\n[5/7] Model eğitimi başlatılıyor...")
-    history = model.fit(
-    X_train, y_train,
-    validation_data=(X_val, y_val),
-    epochs=INITIAL_EPOCHS,
-    batch_size=BATCH_SIZE,
-    class_weight=class_weights,
-    callbacks=get_callbacks(MODEL_NAME),
-    verbose=1
-    )
+    # 5. Model Eğitimi (Aşama 1: Sadece Kafa Kısmı)
+    print("\n[5/7] Aşama 1: Üst katmanlar eğitiliyor...")
+    model.fit(X_train, y_train, validation_data=(X_val, y_val),
+              epochs=20, batch_size=BATCH_SIZE, class_weight=class_weights,
+              callbacks=get_callbacks(MODEL_NAME + "_stage1"))
+
+    # Aşama 2: Fine-Tuning (MobileNet'in kilitlerini açıyoruz)
+    print("\n[5.1/7] Aşama 2: Fine-tuning başlatılıyor...")
+    base_model.trainable = True
+    # Sadece son katmanları açmak (opsiyonel ama daha kararlı):
+    # for layer in base_model.layers[:100]: layer.trainable = False
+
+    model.compile(optimizer=tf.keras.optimizers.Adam(1e-5), # Çok düşük hız
+                  loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+    history = model.fit(X_train, y_train, validation_data=(X_val, y_val),
+                        epochs=INITIAL_EPOCHS, batch_size=BATCH_SIZE, 
+                        class_weight=class_weights, callbacks=get_callbacks(MODEL_NAME))
 
     # 6. Değerlendirme ve Raporlama
     print("\n[6/7] Performans değerlendiriliyor...")
