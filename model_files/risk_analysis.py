@@ -248,7 +248,7 @@ def get_callbacks(model_name):
         callbacks.ModelCheckpoint(
             f'{model_name}_best.h5',
             save_best_only=True,
-            save_weights_only=False,
+            save_weights_only=True,
             monitor='val_loss',
             mode='min',
             verbose=1
@@ -309,7 +309,7 @@ def visualize_results(history, y_true, y_pred, CLASSES):
     plt.ylabel("Gerçek")
 
     # PNG olarak kaydet
-    output_path = "../analysis_results/confusion_matrix_risk_analysis1.png"
+    output_path = "../analysis_results/confusion_matrix_risk_analysis.png"
     plt.savefig(output_path, bbox_inches="tight")
     plt.show()
 
@@ -487,7 +487,7 @@ def main():
         epochs=15, # İlk aşama için 15 epok yeterli
         batch_size=BATCH_SIZE,
         class_weight=class_weights,
-        callbacks=get_callbacks(MODEL_NAME + "_stage1"), # Stage 1 için ayrı log tutabilirsin
+        callbacks=get_callbacks(MODEL_NAME),
         verbose=1
     )
 

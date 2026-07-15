@@ -1,0 +1,270 @@
+Dosya,Gerçek,Tahmin,Yara_Var,Yara_Yok
+wound_detection_dataset\wound\Evre 1\TOPUK.EVRE1.-2.2.jpg,wound,no_wound,0.32019255,0.6798075
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.7 (5).jpg,no_wound,no_wound,0.3441677,0.6558323
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.7 (8).jpg,no_wound,no_wound,0.37919822,0.62080175
+"wound_detection_dataset\no_wound\Yüksek Risk 1-2\0121.TOPUK.GR.-1,6.jpeg",no_wound,no_wound,0.41260505,0.58739495
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-0.6.jpg,wound,no_wound,0.38060483,0.61939514
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.3 (3).jpg,no_wound,no_wound,0.3834307,0.61656934
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.4 (1).jpg,no_wound,no_wound,0.46801722,0.5319827
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.9 (6).jpg,no_wound,no_wound,0.39171278,0.60828716
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-2.7.jpg,wound,no_wound,0.34826615,0.6517338
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.5 (2).jpg,no_wound,no_wound,0.3715345,0.6284655
+"wound_detection_dataset\no_wound\Göreceli Risk _1\12.04.2025. SAKRUM. GR. -0,3.jpg",no_wound,no_wound,0.30773637,0.69226366
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.4 (6).jpg,no_wound,no_wound,0.4422067,0.5577933
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL.GR.-0.1 (8).jpg,no_wound,no_wound,0.51011074,0.48988923
+wound_detection_dataset\wound\Evre 1\SAKRUM.EVRE1.-0.1.jpeg,wound,wound,0.69815135,0.30184868
+wound_detection_dataset\wound\Evre 2\MALLEOL.EVRE2-3.1.jpg,wound,no_wound,0.5115058,0.48849425
+wound_detection_dataset\wound\Evrelendirilemeyen\22.04.2025.GLUTEAL.EBY.-2.5.jpg,wound,no_wound,0.44531313,0.55468684
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL.GR.-0.6 (4).jpg,no_wound,no_wound,0.4041002,0.5958998
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.2 (5).jpg,no_wound,no_wound,0.4223756,0.5776244
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.3 (8).jpg,no_wound,no_wound,0.3506466,0.64935344
+wound_detection_dataset\wound\Evrelendirilemeyen\02.05.2025.SAKRUM.EBY.-4.9.jpg,wound,wound,0.63147146,0.36852857
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL.GR.-0.8.jpg,no_wound,no_wound,0.42073283,0.5792672
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.7 (1).jpg,no_wound,no_wound,0.3357819,0.6642181
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.5 (6).jpg,no_wound,no_wound,0.27804163,0.7219584
+"wound_detection_dataset\wound\Evre 1\718.12.GLUTEAL.EVRE1.-0,3.jpg",wound,wound,0.78364795,0.21635206
+wound_detection_dataset\no_wound\Göreceli Risk _1\2.22.04.2025.GLUTEAL.GR.-0.4.jpg,no_wound,no_wound,0.4128554,0.58714455
+"wound_detection_dataset\no_wound\Göreceli Risk _1\02.12.2025.TOPUK.GR.-0,7.jpg",no_wound,no_wound,0.36857128,0.63142866
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-3.2.jpg,wound,no_wound,0.33552495,0.664475
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\SAKRUM.YR.-2.0 (4).jpg,no_wound,no_wound,0.42432615,0.5756739
+"wound_detection_dataset\wound\Evre 1\04.06.2025.SAKRUM.EVRE1.-1,4.jpg",wound,wound,0.56213623,0.4378637
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-3.1 (2).jpg,no_wound,no_wound,0.3358818,0.66411823
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.9 (7).jpg,no_wound,no_wound,0.326318,0.673682
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-3.3 (2).jpg,no_wound,no_wound,0.4763467,0.5236533
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-2.0 (3).jpg,no_wound,no_wound,0.3026981,0.69730186
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.5 (4).jpg,no_wound,no_wound,0.30705115,0.6929488
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.5 (5).jpg,no_wound,no_wound,0.30523995,0.69476
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLYTEAL.ÇYR.-3.3.jpg,no_wound,no_wound,0.38829306,0.6117069
+wound_detection_dataset\wound\Evre 1\GLUTEAL.EVRE1.-1.1.jpg,wound,no_wound,0.4126658,0.5873342
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\01.21.GLUTEAL.GR.-1.jpeg,no_wound,wound,0.5709787,0.4290212
+"wound_detection_dataset\no_wound\Göreceli Risk _1\02.11.TOPUK.GR.-0,3.jpeg",no_wound,no_wound,0.3815092,0.6184909
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-0.8.jpeg,wound,wound,0.7226253,0.27737466
+wound_detection_dataset\wound\Evre 2\318.12.TOPUK.EVRE2.-2.jpg .jpg,wound,no_wound,0.42319682,0.5768032
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.7 (7).jpg,no_wound,no_wound,0.32797852,0.67202145
+"wound_detection_dataset\no_wound\Göreceli Risk _1\28.03.2025.GLUTEAL.GR.-0,1.jpg",no_wound,no_wound,0.43467692,0.56532305
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL.GR.-0.2 (3).jpg,no_wound,no_wound,0.35757422,0.6424258
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\SAKRUM.YR.-2.0.jpg,no_wound,no_wound,0.41888666,0.58111334
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.8 (1).jpg,no_wound,no_wound,0.2654179,0.7345821
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.3 (2).jpg,no_wound,no_wound,0.3424134,0.65758663
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.8.jpg,no_wound,no_wound,0.36847615,0.6315239
+wound_detection_dataset\wound\Evre 4\SAKRUM.EVRE4-3.2.jpg,wound,wound,0.8698847,0.13011529
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.4 (8).jpg,no_wound,wound,0.8369379,0.16306211
+wound_detection_dataset\no_wound\Göreceli Risk _1\TOPUK.GR.-0.9 (4).jpg,no_wound,no_wound,0.37368372,0.6263163
+wound_detection_dataset\wound\Evre 1\GLUTEAL.EVRE1.-5.1.jpg,wound,no_wound,0.3693191,0.63068086
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.3 (3).jpg,no_wound,no_wound,0.41353992,0.58646005
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL. GR. -0.3.jpg,no_wound,no_wound,0.5226043,0.47739574
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-5.2.jpg,no_wound,no_wound,0.3408599,0.6591401
+"wound_detection_dataset\wound\Evre 2\04.06.2025.SAKRUM2.EVRE2.-1,2.jpg",wound,no_wound,0.37657294,0.6234271
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-3.2.jpeg,no_wound,no_wound,0.42293474,0.5770652
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.3 (5).jpg,no_wound,no_wound,0.38466093,0.61533904
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL.GR.-0.7 (3).jpg,no_wound,no_wound,0.48828316,0.51171684
+wound_detection_dataset\wound\Evre 4\Gluteal evre 4 2025-07-31 saat 15.01.28_7fba8806.jpg,wound,wound,0.8875714,0.11242855
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.3 (11).jpg,no_wound,no_wound,0.38554966,0.61445034
+"wound_detection_dataset\wound\Evre 3\02.20.SAKRUM.EVRE3.-0,2.jpeg",wound,wound,0.9521349,0.04786509
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.8.jpg,no_wound,no_wound,0.42165947,0.57834053
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.4 (5).jpg,no_wound,no_wound,0.32023802,0.67976195
+wound_detection_dataset\no_wound\Göreceli Risk _1\TOPUK.GR.-0.4 (3).jpg,no_wound,no_wound,0.34097162,0.6590284
+"wound_detection_dataset\wound\Evre 2\05.12.TOPUK.EVRE2.-0,3.jpg",wound,no_wound,0.46018216,0.53981787
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.jpg,no_wound,no_wound,0.30672812,0.6932719
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-1.4 (2).jpg,wound,no_wound,0.42196408,0.578036
+"wound_detection_dataset\wound\Evre 2\04.06.2025.GLUTEAL.EVRE2.-1,9.jpg",wound,no_wound,0.42446288,0.5755371
+wound_detection_dataset\no_wound\Göreceli Risk _1\1TOPUK.GR.-0.6.jpg,no_wound,no_wound,0.41703582,0.5829642
+wound_detection_dataset\wound\Evre 4\SAKRUM.EVRE4.-1.2.jpeg,wound,wound,0.79512244,0.20487757
+wound_detection_dataset\wound\Evrelendirilemeyen\SAKRUM.EBY.-1.2.jpg,wound,no_wound,0.4298217,0.57017833
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-3.7 (1).jpg,no_wound,no_wound,0.42345628,0.57654375
+"wound_detection_dataset\no_wound\Göreceli Risk _1\02.11.TOPUK.GR.-0,6.jpeg",no_wound,no_wound,0.3871783,0.61282176
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.6.jpeg,no_wound,no_wound,0.36909512,0.6309049
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-2.6 (2).jpg,wound,no_wound,0.35826814,0.64173186
+wound_detection_dataset\wound\Evre 1\GLUTEAL.EVRE1.-3.3.jpg,wound,no_wound,0.38697812,0.61302185
+"wound_detection_dataset\no_wound\Yüksek Risk 1-2\1TOPUK.GR.-1,1.jpg",no_wound,no_wound,0.3793951,0.62060493
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\02.12.2025.SAKRUM.YR.-1.jpg,no_wound,no_wound,0.37985328,0.6201467
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\02.20.TOPUK.YR.+1.jpeg,no_wound,no_wound,0.34402594,0.6559741
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.8 (4).jpg,no_wound,no_wound,0.32263514,0.6773648
+"wound_detection_dataset\no_wound\Göreceli Risk _1\02.20.TOPUK.GR.-0,9.jpeg",no_wound,no_wound,0.3736775,0.6263225
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.0.jpg,no_wound,no_wound,0.34203112,0.6579688
+"wound_detection_dataset\wound\Evrelendirilemeyen\113.03.2025.GLUTEAL.EBY.-2,5.jpg",wound,wound,0.7536444,0.24635561
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-2.0 (12).jpg,no_wound,no_wound,0.46092317,0.5390768
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2-3.2.jpg,wound,wound,0.829789,0.17021106
+"wound_detection_dataset\no_wound\Göreceli Risk _1\0211.TOPUK.GR.+0,5.jpeg",no_wound,no_wound,0.3874198,0.61258024
+wound_detection_dataset\no_wound\Göreceli Risk _1\1SAKRUM.GR.-0.2 (2).jpg,no_wound,no_wound,0.41799453,0.5820055
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.4.jpg,no_wound,no_wound,0.3925917,0.60740834
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.4 (6).jpg,no_wound,no_wound,0.4145155,0.5854845
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\DİRSEK.YR.-1.5.jpg,no_wound,no_wound,0.34509543,0.6549046
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\0121.METARSAL.GR.-1.jpeg,no_wound,no_wound,0.4267582,0.5732418
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK. YR. -2.0.jpg,no_wound,no_wound,0.43768707,0.5623129
+wound_detection_dataset\no_wound\Göreceli Risk _1\22.04.2025.TOPUK.GR.-0.6.jpg,no_wound,no_wound,0.2981932,0.7018068
+"wound_detection_dataset\no_wound\Göreceli Risk _1\01.21.GLUTEAL.GR.-0,9.jpeg",no_wound,wound,0.70337635,0.2966236
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\DİRSEK.ÇYR.-2.6.jpg,no_wound,no_wound,0.333671,0.66632897
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.7 (3).jpg,no_wound,no_wound,0.3775417,0.6224583
+"wound_detection_dataset\no_wound\Göreceli Risk _1\001.21.TOPUK.GR.-0,6.jpeg",no_wound,no_wound,0.33262542,0.6673746
+"wound_detection_dataset\wound\Evre 2\04.06.2025.SAKRUM.1.EVRE2.-1,6.jpg",wound,no_wound,0.41311923,0.58688086
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.0 (2).jpg,no_wound,no_wound,0.34337234,0.65662766
+"wound_detection_dataset\no_wound\Göreceli Risk _1\02.12.2025.SAKRUM.GR.-0,3 (2).jpg",no_wound,no_wound,0.3294269,0.67057306
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.3 (4).jpg,no_wound,no_wound,0.3883946,0.6116054
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\SAKRUM.YR.-1.3.jpg,no_wound,no_wound,0.3850931,0.61490685
+"wound_detection_dataset\no_wound\Göreceli Risk _1\0001.21.TOPUK.GR.-0,5.jpeg",no_wound,no_wound,0.4372302,0.56276983
+wound_detection_dataset\wound\Evre 3\sakrum evre 3 2025-07-31 saat 15.02.jpg,wound,wound,0.96077967,0.039220408
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\105.12.TOPUK.GR.-1.jpg,no_wound,wound,0.6072033,0.39279673
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.1 (7).jpg,no_wound,no_wound,0.27899915,0.72100085
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.5.jpeg,no_wound,no_wound,0.4567828,0.54321724
+wound_detection_dataset\wound\Evre 1\SAKRUM.EVRE1.-0.3 (1).jpg,wound,no_wound,0.45999417,0.54000586
+"wound_detection_dataset\wound\Evre 1\04.06.2025.GLUTEAL.EVRE1,-0,4.jpg",wound,no_wound,0.4450229,0.5549771
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.0.jpg,no_wound,no_wound,0.2704167,0.7295833
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.6.jpg,no_wound,no_wound,0.35871735,0.6412826
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-4.jpg,no_wound,no_wound,0.36247945,0.63752055
+wound_detection_dataset\no_wound\Göreceli Risk _1\2GLUTEAL.GR.-0.6 (2).jpg,no_wound,no_wound,0.33893123,0.66106874
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.5 (5).jpg,no_wound,no_wound,0.41374585,0.5862542
+wound_detection_dataset\wound\Evre 1\01.21.GLUTEAL.EVRE1.-2.jpeg,wound,wound,0.8581225,0.14187749
+wound_detection_dataset\wound\Evre 1\0121.SAKRUM.EVRE1.-2.jpeg,wound,wound,0.6310282,0.36897182
+wound_detection_dataset\no_wound\Göreceli Risk _1\02.05.2025.GLUTEAL.GR.-0.3.jpg,no_wound,no_wound,0.3861191,0.6138809
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-3.9.jpg,no_wound,no_wound,0.42374572,0.57625425
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.2 (7).jpg,no_wound,no_wound,0.32362506,0.676375
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-1.7.jpg,wound,no_wound,0.3416493,0.65835077
+wound_detection_dataset\wound\Evre 4\sakrum evre 4 2025-07-31 saat 15.01.32_84749798.jpg,wound,no_wound,0.54478717,0.45521283
+wound_detection_dataset\wound\Evre 2\SAKRUM.EVRE2.-0.8.jpg,wound,wound,0.81302375,0.18697631
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.1 (2).jpg,no_wound,no_wound,0.34892073,0.65107924
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.1.jpeg,no_wound,no_wound,0.39847195,0.6015281
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.1.jpg,no_wound,no_wound,0.4378699,0.56213003
+wound_detection_dataset\wound\Evre 2\TOPUK.EVRE2.-1.6.jpeg,wound,wound,0.7065091,0.2934909
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-1.4 (2).jpg,wound,no_wound,0.35322988,0.6467702
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.3.jpg,no_wound,no_wound,0.4110104,0.58898956
+"wound_detection_dataset\wound\Derin Doku Hasarı\13.03.2025.GLUTEAL.DDH.-1,8.jpg",wound,no_wound,0.40486637,0.5951336
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL. YR.-1.2.jpg,no_wound,no_wound,0.43812123,0.56187874
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.1 (2).jpg,no_wound,no_wound,0.33369836,0.6663016
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM. GR. -0.8.jpg,no_wound,no_wound,0.38471153,0.6152885
+wound_detection_dataset\wound\Evre 3\GLUTEAL.EVRE3.-0.7.jpg,wound,no_wound,0.47771034,0.5222897
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.9 (2).jpg,no_wound,no_wound,0.36392698,0.63607305
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.1.jpg,no_wound,no_wound,0.38218775,0.6178122
+wound_detection_dataset\wound\Tıbbi Cihazla İlişkili Basınç Yaralanması\KULAK.TCİBY-3.1.jpg,wound,wound,0.725663,0.27433702
+wound_detection_dataset\wound\Evrelendirilemeyen\02.05.2025.SAKRUM.EBY.-3.2.jpg,wound,no_wound,0.40825117,0.5917489
+"wound_detection_dataset\no_wound\Göreceli Risk _1\113.03.2025.GLUTEAL.GR.-0,2.jpg",no_wound,no_wound,0.40753856,0.5924614
+wound_detection_dataset\wound\Evrelendirilemeyen\TOPUK.EBY.-1.jpg,wound,no_wound,0.40136576,0.59863424
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.8 (1).jpg,no_wound,no_wound,0.15580505,0.8441949
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-1.6.jpeg,wound,wound,0.8872576,0.112742364
+wound_detection_dataset\wound\Derin Doku Hasarı\DİRSEK.DDH.-2.4.jpg,wound,no_wound,0.32071066,0.67928934
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL. GR. -0.3.jpg,no_wound,no_wound,0.37896395,0.62103605
+wound_detection_dataset\no_wound\Göreceli Risk _1\2.22.04.2025.GLUTEAL.GR.-0.8.jpg,no_wound,no_wound,0.4141214,0.5858786
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\SAKRUM.ÇYR.-2.5.jpg,no_wound,no_wound,0.30889872,0.69110125
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-2.0 (13).jpg,no_wound,no_wound,0.33312413,0.66687584
+wound_detection_dataset\no_wound\Göreceli Risk _1\1TOPUK.GR.-0.5 (2).jpg,no_wound,no_wound,0.38784918,0.61215085
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL.GR.-0.9 (1).jpg,no_wound,no_wound,0.402788,0.597212
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.4 (1).jpg,no_wound,no_wound,0.2934893,0.7065107
+"wound_detection_dataset\no_wound\Göreceli Risk _1\02.12.2025.SAKRUM.GR.-0,2 (2).jpg",no_wound,no_wound,0.2854015,0.7145985
+wound_detection_dataset\wound\Evre 1\GLUTEAL.EVRE1.-0.5.jpeg,wound,no_wound,0.5392825,0.4607176
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.9 (5).jpg,no_wound,no_wound,0.34942064,0.65057933
+wound_detection_dataset\wound\Evre 2\02.05.2025.SAKRUM.EVRE2.-1.5.jpg,wound,no_wound,0.41849396,0.5815061
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\010.21.TOPUK.GR.-1.jpeg,no_wound,no_wound,0.35050693,0.64949304
+wound_detection_dataset\wound\Evre 3\GLUTEAL.EVRE3.+0.6 (2).jpeg,wound,no_wound,0.48258743,0.5174126
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-3.1.jpeg,no_wound,no_wound,0.38659444,0.6134055
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL. GR. -0.2 (2).jpg,no_wound,no_wound,0.3768463,0.6231537
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-3.3.jpg,wound,no_wound,0.3344847,0.66551524
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.6 (7).jpg,no_wound,no_wound,0.40021217,0.59978783
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\SAKRUM.ÇYR.-3.5.jpg,no_wound,no_wound,0.38599432,0.6140056
+wound_detection_dataset\wound\Evre 1\SAKRUM.EVRE1.-0.6.jpg,wound,no_wound,0.38027728,0.6197227
+wound_detection_dataset\wound\Evre 1\YÜZ.EVRE1-3.1.jpg,wound,wound,0.8106084,0.18939157
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.7.jpg,no_wound,no_wound,0.38638845,0.6136115
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.5 (12).jpg,no_wound,no_wound,0.46629354,0.5337065
+wound_detection_dataset\wound\Evre 2\SAKRUM.EVRE2.-2.2.jpg,wound,no_wound,0.4298217,0.57017833
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.7 (1).jpg,no_wound,no_wound,0.31632772,0.68367225
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-1.4.jpg,wound,no_wound,0.4362934,0.5637066
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2-3.1.jpg,wound,wound,0.88120383,0.11879622
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.8 (4).jpg,no_wound,no_wound,0.31218684,0.6878132
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.6.jpg,no_wound,no_wound,0.34465066,0.6553493
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\DİRSEK.ÇYR.-2.2.jpg,no_wound,no_wound,0.29409033,0.7059097
+"wound_detection_dataset\wound\Evre 3\13.03.2025.SAKRUM.EVRE3.-0,6.jpg",wound,no_wound,0.5130258,0.48697424
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-1.7 (5).jpg,wound,no_wound,0.35607973,0.64392024
+wound_detection_dataset\no_wound\Göreceli Risk _1\1SAKRUM.GR.-0.9.jpg,no_wound,no_wound,0.36048603,0.63951397
+wound_detection_dataset\no_wound\Göreceli Risk _1\5.22.04.2025.GLUTEAL.GR.-0.3.jpg,no_wound,no_wound,0.31154653,0.6884535
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.9 (4).jpg,no_wound,no_wound,0.41370383,0.58629614
+wound_detection_dataset\no_wound\Göreceli Risk _1\1SAKRUM.GR.-0.3 (1).jpg,no_wound,no_wound,0.36472926,0.6352708
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.2 (3).jpg,no_wound,no_wound,0.37044108,0.62955886
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.4 (4).jpg,no_wound,no_wound,0.35381866,0.6461814
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.8 (2).jpg,no_wound,no_wound,0.3611596,0.63884044
+wound_detection_dataset\wound\Derin Doku Hasarı\SAKRUM.DDH.-0.1.jpg,wound,no_wound,0.45488754,0.54511243
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-1.2 (1).jpg,wound,no_wound,0.4475321,0.5524679
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1 (4).jpg,no_wound,no_wound,0.37786472,0.62213534
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\DİRSEK.YR.-1.9 (1).jpg,no_wound,no_wound,0.389402,0.610598
+wound_detection_dataset\no_wound\Göreceli Risk _1\TOPUK.GR.-0.1 (5).jpg,no_wound,no_wound,0.4213486,0.57865137
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.3 (7).jpg,no_wound,no_wound,0.4054587,0.5945414
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\SAKRUM.YR.-1.5.jpg,no_wound,no_wound,0.25432977,0.74567026
+wound_detection_dataset\no_wound\Göreceli Risk _1\TOPUK.GR.-0.5 (5).jpg,no_wound,no_wound,0.34404245,0.65595746
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\GLUTEAL.YR.-1.5.jpg,no_wound,no_wound,0.37278607,0.6272139
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\28.03.2025.gluteal.yr.-1.jpg,no_wound,no_wound,0.3221085,0.67789155
+wound_detection_dataset\wound\Evre 3\GLUTEAL.EVRE3.+0.6.jpeg,wound,wound,0.7498145,0.25018546
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.8 (5).jpg,no_wound,no_wound,0.27319202,0.726808
+wound_detection_dataset\no_wound\Göreceli Risk _1\TOPUK.GR.-0.8 (11).jpg,no_wound,no_wound,0.32418692,0.675813
+wound_detection_dataset\no_wound\Göreceli Risk _1\1SAKRUM.GR.-0.8.jpg,no_wound,no_wound,0.36160278,0.6383972
+wound_detection_dataset\wound\Evrelendirilemeyen\SAKRUM.EBY.-2.2.jpg,wound,no_wound,0.55685765,0.4431423
+wound_detection_dataset\wound\Evre 2\SAKRUM.EVRE2.+0.5.jpeg,wound,wound,0.77237177,0.2276283
+"wound_detection_dataset\no_wound\Çok Yüksek Risk _2\113.03.2025.TOPUK.ÇYR.-2,6.jpg",no_wound,no_wound,0.3624244,0.6375756
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\2TOPUK.YR.-1.1.jpg,no_wound,no_wound,0.42213193,0.57786804
+wound_detection_dataset\wound\Evre 1\SAKRUM.EVRE1.-0.3.jpeg,wound,wound,0.60525995,0.39474007
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.1 (11).jpg,no_wound,no_wound,0.48255864,0.51744133
+"wound_detection_dataset\wound\Evre 2\04.06.2025.SAKRUM.EVRE2.-1,8.jpg",wound,no_wound,0.42328563,0.57671434
+"wound_detection_dataset\wound\Evrelendirilemeyen\04.06.2025.2.GLUTEAL.EBY.-2,7.jpg",wound,no_wound,0.36532536,0.6346746
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-1.2.jpg,wound,no_wound,0.42775524,0.57224476
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.2 (10).jpg,no_wound,no_wound,0.39050925,0.6094907
+wound_detection_dataset\wound\Derin Doku Hasarı\DİRSEK.DDH.-2.5.jpg,wound,no_wound,0.22655827,0.7734418
+wound_detection_dataset\wound\Evrelendirilemeyen\1SAKRUM.EBY.-0.8.jpg,wound,no_wound,0.3980074,0.60199267
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.6 (5).jpg,no_wound,no_wound,0.29814407,0.70185596
+"wound_detection_dataset\no_wound\Göreceli Risk _1\02.05.2025.GLUTEAL.GR.-0,4.jpg",no_wound,no_wound,0.37162018,0.62837976
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-0.4.jpeg,wound,wound,0.86215776,0.13784231
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL.GR.-0.2 (9).jpg,no_wound,no_wound,0.34131622,0.6586837
+wound_detection_dataset\wound\Evre 1\GLUTEAL.EVRE1.-1.6.jpg,wound,no_wound,0.4580531,0.5419469
+wound_detection_dataset\no_wound\Göreceli Risk _1\22.04.2025.TOPUK.GR.-0.9.jpg,no_wound,no_wound,0.3370129,0.6629872
+wound_detection_dataset\wound\Evre 2\02110.SAKRUM.EVRE2.-2.jpeg,wound,wound,0.8386213,0.16137873
+wound_detection_dataset\wound\Evre 1\22.04.2025.TOPUK.EVRE1.-2.2.jpg,wound,no_wound,0.4156326,0.5843674
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.4 (2).jpg,no_wound,no_wound,0.32770416,0.67229587
+wound_detection_dataset\wound\Evre 1\GLUTEAL.EVRE1.-3.4.jpg,wound,no_wound,0.42510045,0.5748995
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.9 (6).jpg,no_wound,no_wound,0.32329568,0.6767044
+"wound_detection_dataset\no_wound\Göreceli Risk _1\02110.TOPUK.GR.-0,5.jpeg",no_wound,no_wound,0.35843635,0.6415637
+"wound_detection_dataset\no_wound\Göreceli Risk _1\121.TOPUK.GR.-0,5.jpeg",no_wound,no_wound,0.39593145,0.6040686
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.6.jpg,no_wound,no_wound,0.29379824,0.7062018
+wound_detection_dataset\wound\Evre 1\GLUTEAL.EVRE1-3.1.jpg,wound,wound,0.81675076,0.18324922
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-1.3 (2).jpg,wound,no_wound,0.43785974,0.5621403
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.6 (4).jpg,no_wound,no_wound,0.40779734,0.59220266
+wound_detection_dataset\no_wound\Göreceli Risk _1\1TOPUK.GR.-0.4.jpg,no_wound,no_wound,0.42194152,0.57805854
+"wound_detection_dataset\no_wound\Göreceli Risk _1\01.21.GLUTEAL.GR.-0,7.jpeg",no_wound,no_wound,0.55106956,0.4489304
+wound_detection_dataset\wound\Derin Doku Hasarı\GLUTEAL.DDH.-1.8.jpg,wound,no_wound,0.35556114,0.6444388
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.4 (2).jpg,no_wound,no_wound,0.36833075,0.6316692
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.2 (3).jpg,no_wound,no_wound,0.396167,0.603833
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.6 (4).jpg,no_wound,no_wound,0.3890383,0.61096174
+wound_detection_dataset\no_wound\Göreceli Risk _1\1.22.04.2025.GLUTEAL.GR.-0.2.jpg,no_wound,no_wound,0.3861246,0.6138754
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.6 (11).jpg,no_wound,no_wound,0.26695418,0.7330458
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.1 (6).jpg,no_wound,no_wound,0.27598774,0.7240123
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.8 (6).jpg,no_wound,no_wound,0.39988944,0.6001106
+wound_detection_dataset\wound\Evre 2\22.04.2025.SAKRUM.EVRE2.-1.7.jpg,wound,no_wound,0.51547664,0.4845233
+wound_detection_dataset\no_wound\Göreceli Risk _1\2GLUTEAL.GR.-0.5 (7).jpg,no_wound,no_wound,0.43505725,0.5649428
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\SAKRUM.YR.-1.4.jpg,no_wound,no_wound,0.43127283,0.5687272
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.2 (3).jpg,no_wound,no_wound,0.39203885,0.6079611
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL.GR.-0.1 (7).jpg,no_wound,wound,0.7458155,0.25418448
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-1.9 (3).jpeg,wound,wound,0.93369293,0.066307016
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.8 (3).jpg,no_wound,no_wound,0.2756081,0.7243919
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.6 (7).jpg,no_wound,no_wound,0.39060113,0.6093989
+"wound_detection_dataset\no_wound\Yüksek Risk 1-2\13.03.2025.TOPUK.YR.-1,8.jpg",no_wound,no_wound,0.2819132,0.7180869
+wound_detection_dataset\no_wound\Göreceli Risk _1\TOPUK.GR.-0.4 (2).jpg,no_wound,no_wound,0.4555997,0.5444003
+wound_detection_dataset\wound\Evre 1\TOPUK.EVRE1.-0.5.jpeg,wound,no_wound,0.34092787,0.65907216
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.7 (7).jpg,no_wound,no_wound,0.2875583,0.7124417
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-1.6 (1).jpg,no_wound,no_wound,0.37156448,0.62843555
+wound_detection_dataset\no_wound\Göreceli Risk _1\2GLUTEAL.GR.-0.2 (2).jpg,no_wound,no_wound,0.44319114,0.5568089
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.4 (1).jpg,no_wound,no_wound,0.38978866,0.6102113
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\TOPUK.YR.-2.0 (5).jpg,no_wound,no_wound,0.38624978,0.6137502
+wound_detection_dataset\no_wound\Yüksek Risk 1-2\SAKRUM.YR.-1 (1).jpg,no_wound,no_wound,0.3437241,0.6562759
+wound_detection_dataset\wound\Evre 1\SAKRUM.EVRE1.-1.6.jpeg,wound,wound,0.7690201,0.23097992
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.1 (3).jpg,no_wound,no_wound,0.35822546,0.6417746
+wound_detection_dataset\no_wound\Göreceli Risk _1\GLUTEAL.GR.-0.9 (12).jpg,no_wound,no_wound,0.36350814,0.63649184
+wound_detection_dataset\no_wound\Göreceli Risk _1\SAKRUM.GR.-0.3 (1).jpg,no_wound,no_wound,0.36966825,0.63033175
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-2.4 (5).jpg,no_wound,no_wound,0.33488366,0.66511637
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-1.6.jpg,wound,no_wound,0.44263282,0.55736715
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-0.3.jpg,wound,no_wound,0.48155555,0.5184445
+wound_detection_dataset\wound\Evre 3\GLUTEAL.EVRE3.+0.5 (2).jpeg,wound,wound,0.6616548,0.33834526
+wound_detection_dataset\no_wound\Göreceli Risk _1\1TOPUK.GR.-0.5.jpg,no_wound,no_wound,0.36123836,0.6387617
+wound_detection_dataset\no_wound\Göreceli Risk _1\1GLUTEAL.GR.-0.5.jpg,no_wound,no_wound,0.37414804,0.62585205
+"wound_detection_dataset\no_wound\Göreceli Risk _1\28.03.2025.GLUTEAL.GR.-0,4.jpg",no_wound,no_wound,0.4094074,0.5905926
+wound_detection_dataset\wound\Evre 1\SAKRUM.EVRE1.-1.9.jpg,wound,no_wound,0.37457833,0.6254217
+wound_detection_dataset\wound\Evre 2\GLUTEAL.EVRE2.-0.6.jpeg,wound,wound,0.90078425,0.09921575
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.5 (5).jpg,no_wound,no_wound,0.5514726,0.44852737
+"wound_detection_dataset\no_wound\Göreceli Risk _1\02.12.2025.SAKRUM.GR.-0,8 (2).jpg",no_wound,no_wound,0.32483065,0.6751693
+wound_detection_dataset\wound\Evre 1\SKAPULA.EVRE1.-1.6 (2).jpeg,wound,wound,0.8805435,0.11945648
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\TOPUK.ÇYR.-3.0.jpg,no_wound,no_wound,0.28263304,0.71736693
+wound_detection_dataset\no_wound\Çok Yüksek Risk _2\GLUTEAL.ÇYR.-2.1 (3).jpg,no_wound,no_wound,0.3080252,0.6919747

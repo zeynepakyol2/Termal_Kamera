@@ -1,5 +1,7 @@
 import tensorflow as tf
 
+from model_files.risk_analysis import create_efficientnet_model
+
 # 1. Modelin hata vermemesi için özel fonksiyonları buraya da ekliyoruz
 def dice_coef(y_true, y_pred, smooth=1e-6):
     y_true_f = tf.reshape(y_true, [-1])
@@ -18,15 +20,8 @@ keras_path = "models/wound_model.keras"
 tflite_path = "models/wound_model.tflite"
 
 
-# 3. Modeli yükle
-print("Model yükleniyor...")
-model = tf.keras.models.load_model(
-    keras_path,
-    custom_objects={
-        "dice_loss": dice_loss,
-        "dice_coef": dice_coef
-    }
-)
+model, base_model = create_efficientnet_model()
+model.load_weights("wound_risk_model_guncel_best.h5")
 
 # 4. TFLite'a dönüştür ve Android için optimize et
 print("TFLite formatına dönüştürülüyor ve optimize ediliyor...")
