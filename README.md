@@ -54,10 +54,3 @@ cd Termal_Kamera
 pip install -r requirements.txt
 ```
 
-
-
-
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A5ACD,100:FF6B6B&height=100&section=footer"/>
-</p>
