@@ -1,11 +1,14 @@
-# Python virtual environment
+#Python virtual environment
 tflite_env/
 venv/
 env/
 
-# Python cache
+#Python cache
 __pycache__/
 *.pyc
 
-# IDE
+#IDE
 .vscode/
+
+#veriseti
+model_files/wound_detection_dataset/
